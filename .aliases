@@ -20,7 +20,6 @@ alias tf="terraform"
 
 
 ############################### K8S ###############################
-alias k="kubectl"
 alias kx="kubectx"
 alias kubeconfig='code ~/.kube'
 
@@ -144,3 +143,4 @@ start_dns_hell() {
   sudo rm -f /etc/resolv.conf
   sudo launchctl load /Library/LaunchDaemons/com.greenboxal.dnsheaven.plist
 }
+
