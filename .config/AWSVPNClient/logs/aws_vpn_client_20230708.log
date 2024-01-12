@@ -1,0 +1,804 @@
+Platform: MacOS
+App version: 3.3.0
+OS version: Unix 22.5.0.0
+OS description: Unix 22.5.0.0
+2023-07-08 08:36:52.590 +07:00 [DBG] System did wake. Connection state: Disconnected
+2023-07-08 08:38:47.739 +07:00 [DBG] Inserted event CLICK_TRAY_ICON 1 to AnalyticsTable
+2023-07-08 08:38:49.999 +07:00 [INF] Removing profile: AWS
+2023-07-08 08:38:50.006 +07:00 [INF] Deleting OpenVPN config from application local with name: AWS
+2023-07-08 08:38:50.008 +07:00 [INF] Saving profile store to /Users/hoan.lac/.config/AWSVPNClient/ConnectionProfiles
+2023-07-08 08:38:50.015 +07:00 [DBG] Inserted event PROFILE_DELETED 1 to AnalyticsTable
+2023-07-08 08:38:50.016 +07:00 [DBG] Inserted event PROFILE_DELETE_ERROR 0 to MetricsTable
+2023-07-08 08:39:01.593 +07:00 [INF] Adding profile with name: test, OpenVPN config file: /Users/hoan.lac/Downloads/cvpn-endpoint-00c5122a6172bd38a (1).ovpn
+2023-07-08 08:39:01.597 +07:00 [INF] Validating OpenVPN config /Users/hoan.lac/Downloads/cvpn-endpoint-00c5122a6172bd38a (1).ovpn
+2023-07-08 08:39:01.597 +07:00 [INF] File size of /Users/hoan.lac/Downloads/cvpn-endpoint-00c5122a6172bd38a (1).ovpn: 4980 bytes
+2023-07-08 08:39:01.598 +07:00 [INF] Validating schema for OpenVPN config: /Users/hoan.lac/Downloads/cvpn-endpoint-00c5122a6172bd38a (1).ovpn
+2023-07-08 08:39:01.627 +07:00 [INF] Copying OpenVPN config to application local with name: test, from source: /Users/hoan.lac/.config/AWSVPNClient/OpenVpnConfigs/OvpnTempConfig
+2023-07-08 08:39:01.629 +07:00 [INF] For OpenVPN config: /Users/hoan.lac/Downloads/cvpn-endpoint-00c5122a6172bd38a (1).ovpn, CvpnEndpointId: cvpn-endpoint-00c5122a6172bd38a, CvpnEndpointRegion: eu-north-1
+2023-07-08 08:39:01.630 +07:00 [INF] Saving profile store to /Users/hoan.lac/.config/AWSVPNClient/ConnectionProfiles
+2023-07-08 08:39:01.644 +07:00 [DBG] Inserted event PROFILE_ADDED 1 to AnalyticsTable
+2023-07-08 08:39:01.645 +07:00 [DBG] Inserted event PROFILE_CREATE_ERROR 0 to MetricsTable
+2023-07-08 08:39:03.516 +07:00 [INF] Saving profile store to /Users/hoan.lac/.config/AWSVPNClient/ConnectionProfiles
+2023-07-08 08:39:03.521 +07:00 [DBG] Inserted event CLICK_APP_CONNECT 1 to AnalyticsTable
+2023-07-08 08:39:03.521 +07:00 [INF] Connecting /Users/hoan.lac/.config/AWSVPNClient/OpenVpnConfigs/test 
+2023-07-08 08:39:03.522 +07:00 [DBG] validationString: /Users/hoan.lac/.config/AWSVPNClient/OpenVpnConfigs/test
+1688780353
+2023-07-08 08:39:03.525 +07:00 [DBG] Inserted event UI_APP_VPN_CONNECT_ATTEMPT 1 to AnalyticsTable
+2023-07-08 08:39:03.525 +07:00 [DBG] Shutting down metrics agent
+2023-07-08 08:39:03.526 +07:00 [DBG] Metrics agent shut down
+2023-07-08 08:39:03.529 +07:00 [DBG] Inserted event UI_APP_VPN_CONNECT_GENERAL_ERROR 0 to MetricsTable
+2023-07-08 08:39:03.761 +07:00 [INF] Starting OpenVpn process
+2023-07-08 08:39:03.762 +07:00 [DBG] Starting process
+2023-07-08 08:39:03.942 +07:00 [DBG] Start to read process output
+2023-07-08 08:39:04.100 +07:00 [DBG] End reading process output
+2023-07-08 08:39:04.144 +07:00 [DBG] Helper app --init output: Kill success.
+2023-07-08 08:39:04.145 +07:00 [DBG] Connecting using command /Applications/AWS VPN Client/AWS VPN Client.app/Contents/Resources/AWS VPN Client/Contents/MacOS/ACVCHelperTool --start
+2023-07-08 08:39:04.145 +07:00 [DBG] Starting process
+2023-07-08 08:39:04.177 +07:00 [DBG] Start to read process output
+2023-07-08 08:39:04.719 +07:00 [DBG] End reading process output
+2023-07-08 08:39:04.787 +07:00 [DBG] Helper app --start output: Start success.
+2023-07-08 08:39:04.810 +07:00 [INF] Connecting to management interface... host 127.0.0.1, port 8096
+2023-07-08 08:39:04.857 +07:00 [DBG] Socket connected
+2023-07-08 08:39:04.858 +07:00 [DBG] Starting to listen to management port
+2023-07-08 08:39:04.866 +07:00 [DBG] Called isAliveProcess
+2023-07-08 08:39:04.987 +07:00 [INF] Validating schema for OpenVPN config: /Users/hoan.lac/.config/AWSVPNClient/OpenVpnConfigs/test
+2023-07-08 08:39:04.990 +07:00 [INF] Received bytes: 15
+2023-07-08 08:39:04.998 +07:00 [DBG] Message marshalling complete
+2023-07-08 08:39:05.004 +07:00 [DBG] CM received: ENTER PASSWORD:
+2023-07-08 08:39:05.005 +07:00 [DBG] Inserted event CONNECTION_PROFILE_TYPE 1 to AnalyticsTable
+2023-07-08 08:39:05.007 +07:00 [DBG] CM processsing: ENTER PASSWORD:
+2023-07-08 08:39:05.010 +07:00 [DBG] Port needs password to connect
+2023-07-08 08:39:05.011 +07:00 [DBG] Sending port password
+2023-07-08 08:39:05.013 +07:00 [INF] Begin receive init again
+2023-07-08 08:39:05.015 +07:00 [INF] Received bytes: 105
+2023-07-08 08:39:05.015 +07:00 [DBG] Message marshalling complete
+2023-07-08 08:39:05.015 +07:00 [DBG] CM received: SUCCESS: password is correct
+>INFO:OpenVPN Management Interface Version 1 -- type 'help' for more info
+
+2023-07-08 08:39:05.016 +07:00 [DBG] CM processsing: SUCCESS: password is correct
+2023-07-08 08:39:05.016 +07:00 [DBG] 🥶 ONE lineSUCCESS: password is correct
+2023-07-08 08:39:05.016 +07:00 [DBG] CM processsing: >INFO:OpenVPN Management Interface Version 1 -- type 'help' for more info
+2023-07-08 08:39:05.022 +07:00 [DBG] Asking for real-time state, log and echo notifications.
+2023-07-08 08:39:05.022 +07:00 [DBG] Waiting fixed time for response.
+2023-07-08 08:39:05.023 +07:00 [DBG] CM processsing: 
+2023-07-08 08:39:05.023 +07:00 [DBG] 🥶 APPEND line
+2023-07-08 08:39:05.023 +07:00 [INF] Begin receive init again
+2023-07-08 08:39:05.023 +07:00 [INF] Received bytes: 268
+2023-07-08 08:39:05.023 +07:00 [DBG] Message marshalling complete
+2023-07-08 08:39:05.024 +07:00 [DBG] CM received: >PASSWORD:Need 'Auth' username/password
+SUCCESS: real-time state notification set to ON
+SUCCESS: real-time log notification set to ON
+>LOG:1688780345,D,MANAGEMENT: CMD 'echo on'
+SUCCESS: real-time echo notification set to ON
+>LOG:1688780345,D,MANAGEMENT: CMD ''
+
+2023-07-08 08:39:05.024 +07:00 [DBG] CM processsing: >PASSWORD:Need 'Auth' username/password
+2023-07-08 08:39:05.026 +07:00 [DBG] CM received user/pass request: >PASSWORD:Need 'Auth' username/password
+2023-07-08 08:39:05.027 +07:00 [DBG] Federated Auth Profile selected
+2023-07-08 08:39:05.054 +07:00 [DBG] SAML ACS started on port 35001
+2023-07-08 08:39:05.055 +07:00 [DBG] SAML ACS wait for next context.
+2023-07-08 08:39:05.055 +07:00 [DBG] Started ACS with port... 35001
+2023-07-08 08:39:05.060 +07:00 [DBG] CM processsing: SUCCESS: real-time state notification set to ON
+2023-07-08 08:39:05.060 +07:00 [DBG] Response recieved for: state on
+2023-07-08 08:39:05.061 +07:00 [DBG] CM processsing: SUCCESS: real-time log notification set to ON
+2023-07-08 08:39:05.061 +07:00 [DBG] Response recieved for: log on
+2023-07-08 08:39:05.061 +07:00 [DBG] CM processsing: >LOG:1688780345,D,MANAGEMENT: CMD 'echo on'
+2023-07-08 08:39:05.074 +07:00 [DBG] CM processsing: SUCCESS: real-time echo notification set to ON
+2023-07-08 08:39:05.074 +07:00 [DBG] Response recieved for: echo on
+2023-07-08 08:39:05.074 +07:00 [DBG] Real-time state or echo notifications may not be turned on.
+2023-07-08 08:39:05.074 +07:00 [DBG] Assume real-time state notifications are on.
+2023-07-08 08:39:05.074 +07:00 [DBG] Assume real-time echo notifications are on.
+2023-07-08 08:39:05.074 +07:00 [DBG] CM processsing: >LOG:1688780345,D,MANAGEMENT: CMD ''
+2023-07-08 08:39:05.075 +07:00 [DBG] CM processsing: 
+2023-07-08 08:39:05.075 +07:00 [DBG] 🥶 APPEND line
+2023-07-08 08:39:05.075 +07:00 [INF] Begin receive init again
+2023-07-08 08:39:05.075 +07:00 [INF] Received bytes: 151
+2023-07-08 08:39:05.075 +07:00 [DBG] Message marshalling complete
+2023-07-08 08:39:05.075 +07:00 [DBG] CM received: >LOG:1688780345,D,MANAGEMENT: CMD 'username "Auth" N/A'
+SUCCESS: 'Auth' username entered, but not yet verified
+>LOG:1688780345,D,MANAGEMENT: CMD ''
+
+2023-07-08 08:39:05.075 +07:00 [DBG] CM processsing: >LOG:1688780345,D,MANAGEMENT: CMD 'username "Auth" N/A'
+2023-07-08 08:39:05.076 +07:00 [DBG] CM processsing: SUCCESS: 'Auth' username entered, but not yet verified
+2023-07-08 08:39:05.076 +07:00 [DBG] 🥶 ONE lineSUCCESS: 'Auth' username entered, but not yet verified
+2023-07-08 08:39:05.077 +07:00 [DBG] fedauthportdetails:
+password "Auth" ACS::35001
+
+2023-07-08 08:39:05.078 +07:00 [DBG] CM processsing: >LOG:1688780345,D,MANAGEMENT: CMD ''
+2023-07-08 08:39:05.078 +07:00 [DBG] CM processsing: 
+2023-07-08 08:39:05.078 +07:00 [DBG] 🥶 APPEND line
+2023-07-08 08:39:05.078 +07:00 [INF] Begin receive init again
+2023-07-08 08:39:05.078 +07:00 [INF] Received bytes: 146
+2023-07-08 08:39:05.078 +07:00 [DBG] Message marshalling complete
+2023-07-08 08:39:05.078 +07:00 [DBG] CM received: >LOG:1688780345,D,MANAGEMENT: CMD 'password [...]'
+SUCCESS: 'Auth' password entered, but not yet verified
+>LOG:1688780345,D,MANAGEMENT: CMD ''
+
+2023-07-08 08:39:05.078 +07:00 [DBG] CM processsing: >LOG:1688780345,D,MANAGEMENT: CMD 'password [...]'
+2023-07-08 08:39:05.078 +07:00 [DBG] CM processsing: SUCCESS: 'Auth' password entered, but not yet verified
+2023-07-08 08:39:05.078 +07:00 [DBG] 🥶 ONE lineSUCCESS: 'Auth' password entered, but not yet verified
+2023-07-08 08:39:05.079 +07:00 [DBG] CM processsing: >LOG:1688780345,D,MANAGEMENT: CMD ''
+2023-07-08 08:39:05.079 +07:00 [DBG] CM processsing: 
+2023-07-08 08:39:05.079 +07:00 [DBG] 🥶 APPEND line
+2023-07-08 08:39:05.079 +07:00 [INF] Begin receive init again
+2023-07-08 08:39:05.625 +07:00 [INF] Received bytes: 579
+2023-07-08 08:39:05.625 +07:00 [DBG] Message marshalling complete
+2023-07-08 08:39:05.626 +07:00 [DBG] CM received: >LOG:1688780345,W,NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+>LOG:1688780345,,MANAGEMENT: >STATE:1688780345,RESOLVE,,,,,,
+>STATE:1688780345,RESOLVE,,,,,,
+>LOG:1688780345,I,TCP/UDP: Preserving recently used remote address: [AF_INET]13.48.221.199:443
+>LOG:1688780345,,Socket Buffers: R=[786896->786896] S=[9216->9216]
+>LOG:1688780345,I,UDP link local: (not bound)
+>LOG:1688780345,I,UDP link remote: [AF_INET]13.48.221.199:443
+>LOG:1688780345,,MANAGEMENT: >STATE:1688780345,WAIT,,,,,,
+>STATE:1688780345,WAIT,,,,,,
+
+2023-07-08 08:39:05.626 +07:00 [DBG] CM processsing: >LOG:1688780345,W,NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+2023-07-08 08:39:05.626 +07:00 [DBG] CM processsing: >LOG:1688780345,,MANAGEMENT: >STATE:1688780345,RESOLVE,,,,,,
+2023-07-08 08:39:05.627 +07:00 [DBG] CM received state: >LOG:1688780345,,MANAGEMENT: >STATE:1688780345,RESOLVE,,,,,,
+2023-07-08 08:39:05.631 +07:00 [DBG] CM processsing: >STATE:1688780345,RESOLVE,,,,,,
+2023-07-08 08:39:05.632 +07:00 [DBG] CM received state: >STATE:1688780345,RESOLVE,,,,,,
+2023-07-08 08:39:05.632 +07:00 [DBG] CM processsing: >LOG:1688780345,I,TCP/UDP: Preserving recently used remote address: [AF_INET]13.48.221.199:443
+2023-07-08 08:39:05.632 +07:00 [DBG] CM processsing: >LOG:1688780345,,Socket Buffers: R=[786896->786896] S=[9216->9216]
+2023-07-08 08:39:05.632 +07:00 [DBG] CM processsing: >LOG:1688780345,I,UDP link local: (not bound)
+2023-07-08 08:39:05.632 +07:00 [DBG] CM processsing: >LOG:1688780345,I,UDP link remote: [AF_INET]13.48.221.199:443
+2023-07-08 08:39:05.632 +07:00 [DBG] CM processsing: >LOG:1688780345,,MANAGEMENT: >STATE:1688780345,WAIT,,,,,,
+2023-07-08 08:39:05.632 +07:00 [DBG] CM received state: >LOG:1688780345,,MANAGEMENT: >STATE:1688780345,WAIT,,,,,,
+2023-07-08 08:39:05.632 +07:00 [DBG] CM processsing: >STATE:1688780345,WAIT,,,,,,
+2023-07-08 08:39:05.632 +07:00 [DBG] CM received state: >STATE:1688780345,WAIT,,,,,,
+2023-07-08 08:39:05.632 +07:00 [DBG] CM processsing: 
+2023-07-08 08:39:05.632 +07:00 [DBG] 🥶 APPEND line
+2023-07-08 08:39:05.632 +07:00 [INF] Begin receive init again
+2023-07-08 08:39:05.839 +07:00 [INF] Received bytes: 182
+2023-07-08 08:39:05.839 +07:00 [DBG] Message marshalling complete
+2023-07-08 08:39:05.840 +07:00 [DBG] CM received: >LOG:1688780345,,MANAGEMENT: >STATE:1688780345,AUTH,,,,,,
+>STATE:1688780345,AUTH,,,,,,
+>LOG:1688780345,,TLS: Initial packet from [AF_INET]13.48.221.199:443, sid=56f5e298 051b2c5a
+
+2023-07-08 08:39:05.840 +07:00 [DBG] CM processsing: >LOG:1688780345,,MANAGEMENT: >STATE:1688780345,AUTH,,,,,,
+2023-07-08 08:39:05.840 +07:00 [DBG] CM received state: >LOG:1688780345,,MANAGEMENT: >STATE:1688780345,AUTH,,,,,,
+2023-07-08 08:39:05.840 +07:00 [DBG] CM processsing: >STATE:1688780345,AUTH,,,,,,
+2023-07-08 08:39:05.840 +07:00 [DBG] CM received state: >STATE:1688780345,AUTH,,,,,,
+2023-07-08 08:39:05.840 +07:00 [DBG] CM processsing: >LOG:1688780345,,TLS: Initial packet from [AF_INET]13.48.221.199:443, sid=56f5e298 051b2c5a
+2023-07-08 08:39:05.840 +07:00 [DBG] CM processsing: 
+2023-07-08 08:39:05.840 +07:00 [DBG] 🥶 APPEND line
+2023-07-08 08:39:05.840 +07:00 [INF] Begin receive init again
+2023-07-08 08:39:06.259 +07:00 [INF] Received bytes: 660
+2023-07-08 08:39:06.260 +07:00 [DBG] Message marshalling complete
+2023-07-08 08:39:06.260 +07:00 [DBG] CM received: >LOG:1688780346,,VERIFY OK: depth=3, C=US, ST=Arizona, L=Scottsdale, O=Starfield Technologies, Inc., CN=Starfield Services Root Certificate Authority - G2
+>LOG:1688780346,,VERIFY OK: depth=2, C=US, O=Amazon, CN=Amazon Root CA 1
+>LOG:1688780346,,VERIFY OK: depth=1, C=US, O=Amazon, CN=Amazon RSA 2048 M02
+>LOG:1688780346,,VERIFY KU OK
+>LOG:1688780346,,Validating certificate extended key usage
+>LOG:1688780346,,++ Certificate has EKU (str) TLS Web Server Authentication, expects TLS Web Server Authentication
+>LOG:1688780346,,VERIFY EKU OK
+>LOG:1688780346,,VERIFY X509NAME OK: CN=*.pocketlaw.com
+>LOG:1688780346,,VERIFY OK: depth=0, CN=*.pocketlaw.com
+
+2023-07-08 08:39:06.260 +07:00 [DBG] CM processsing: >LOG:1688780346,,VERIFY OK: depth=3, C=US, ST=Arizona, L=Scottsdale, O=Starfield Technologies, Inc., CN=Starfield Services Root Certificate Authority - G2
+2023-07-08 08:39:06.260 +07:00 [DBG] CM processsing: >LOG:1688780346,,VERIFY OK: depth=2, C=US, O=Amazon, CN=Amazon Root CA 1
+2023-07-08 08:39:06.260 +07:00 [DBG] CM processsing: >LOG:1688780346,,VERIFY OK: depth=1, C=US, O=Amazon, CN=Amazon RSA 2048 M02
+2023-07-08 08:39:06.260 +07:00 [DBG] CM processsing: >LOG:1688780346,,VERIFY KU OK
+2023-07-08 08:39:06.260 +07:00 [DBG] CM processsing: >LOG:1688780346,,Validating certificate extended key usage
+2023-07-08 08:39:06.260 +07:00 [DBG] CM processsing: >LOG:1688780346,,++ Certificate has EKU (str) TLS Web Server Authentication, expects TLS Web Server Authentication
+2023-07-08 08:39:06.260 +07:00 [DBG] CM processsing: >LOG:1688780346,,VERIFY EKU OK
+2023-07-08 08:39:06.260 +07:00 [DBG] CM processsing: >LOG:1688780346,,VERIFY X509NAME OK: CN=*.pocketlaw.com
+2023-07-08 08:39:06.260 +07:00 [DBG] CM processsing: >LOG:1688780346,,VERIFY OK: depth=0, CN=*.pocketlaw.com
+2023-07-08 08:39:06.260 +07:00 [DBG] CM processsing: 
+2023-07-08 08:39:06.260 +07:00 [DBG] 🥶 APPEND line
+2023-07-08 08:39:06.260 +07:00 [INF] Begin receive init again
+2023-07-08 08:39:06.669 +07:00 [INF] Received bytes: 200
+2023-07-08 08:39:06.670 +07:00 [DBG] Message marshalling complete
+2023-07-08 08:39:06.670 +07:00 [DBG] CM received: >LOG:1688780346,,Control Channel: TLSv1.2, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+>LOG:1688780346,I,[*.pocketlaw.com] Peer Connection Initiated with [AF_INET]13.48.221.199:443
+
+2023-07-08 08:39:06.670 +07:00 [DBG] CM processsing: >LOG:1688780346,,Control Channel: TLSv1.2, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+2023-07-08 08:39:06.670 +07:00 [DBG] CM processsing: >LOG:1688780346,I,[*.pocketlaw.com] Peer Connection Initiated with [AF_INET]13.48.221.199:443
+2023-07-08 08:39:06.671 +07:00 [DBG] CM processsing: 
+2023-07-08 08:39:06.671 +07:00 [DBG] 🥶 APPEND line
+2023-07-08 08:39:06.671 +07:00 [INF] Begin receive init again
+2023-07-08 08:39:07.824 +07:00 [INF] Received bytes: 177
+2023-07-08 08:39:07.824 +07:00 [DBG] Message marshalling complete
+2023-07-08 08:39:07.824 +07:00 [DBG] CM received: >LOG:1688780347,,MANAGEMENT: >STATE:1688780347,GET_CONFIG,,,,,,
+>STATE:1688780347,GET_CONFIG,,,,,,
+>LOG:1688780347,,SENT CONTROL [*.pocketlaw.com]: 'PUSH_REQUEST' (status=1)
+
+2023-07-08 08:39:07.824 +07:00 [DBG] CM processsing: >LOG:1688780347,,MANAGEMENT: >STATE:1688780347,GET_CONFIG,,,,,,
+2023-07-08 08:39:07.825 +07:00 [DBG] CM received state: >LOG:1688780347,,MANAGEMENT: >STATE:1688780347,GET_CONFIG,,,,,,
+2023-07-08 08:39:07.825 +07:00 [DBG] CM processsing: >STATE:1688780347,GET_CONFIG,,,,,,
+2023-07-08 08:39:07.825 +07:00 [DBG] CM received state: >STATE:1688780347,GET_CONFIG,,,,,,
+2023-07-08 08:39:07.825 +07:00 [DBG] CM processsing: >LOG:1688780347,,SENT CONTROL [*.pocketlaw.com]: 'PUSH_REQUEST' (status=1)
+2023-07-08 08:39:07.825 +07:00 [DBG] CM processsing: 
+2023-07-08 08:39:07.825 +07:00 [DBG] 🥶 APPEND line
+2023-07-08 08:39:07.825 +07:00 [INF] Begin receive init again
+2023-07-08 08:39:08.055 +07:00 [INF] Received bytes: 1717
+2023-07-08 08:39:08.055 +07:00 [DBG] Message marshalling complete
+2023-07-08 08:39:08.055 +07:00 [DBG] CM received: >LOG:1688780348,,AUTH: Received control message: AUTH_FAILED,CRV1:R:instance-1/7253256352440095953/012e0b44-01e6-477b-b697-f9e114c072df:b'Ti9B':https://portal.sso.eu-north-1.amazonaws.com/saml/assertion/NjczNDU1MzQyODA5X2lucy05YTBiOGQyNmUxZGQwZWFh?SAMLRequest=fVLbbqMwFHzPVyDeAQMhNFYSiRa1G6nNpSF7ycvKAWfjlbFZH9M0%2BfrasNvLw9aWLPl4Zs7MkSdAat7grNVH8Uj%2FtBT0wHGeay4Ad09Tt1UCSwIMsCA1BaxLvMke7nHkI9woqWUpufuB9DmHAFClmRSWNM%2Bn7s80pSi8Sg5hMqzMUQ33KB5XcUTGo%2FRAaEqHZbIvR7ElfKUKDHfqGqlOAKClcwGaCG2KKIo9lHroqkAhjscYjXYWlZtcTBDdMY9aN4CDoJFKE%2B4DSJ%2B2njC3oxf6pCYXKcgJ%2FFLWgY0TvDoOFr%2FLyyLfhg%2BX9XmZZ8n3iLflGSU%2Fimu2vFufF%2FX2eXe3Pu2%2B3R5t39Xf%2BVwzUTHx6%2FPB7HsQ4C9FsfJWy01hJbJ%2FzW%2BkgLamakPVEyvp9vG%2Bj2KShFHqI7NN5ASh0J0ZnuNMrHncDUjNbOM%2BGj7RPfQagEvOqNBPjZgE79Fv%2FAYvjNF5vpKcleeubtetVDXR%2F88TGi%2B2wirv0EExrQnjWVUpCuC%2B6mScy9ONokTTqatVS10nmA0GvZuP%2F3L2Ag%3D%3D
+>PASSWORD:Verification Failed: 'Auth' ['CRV1:R:instance-1/7253256352440095953/012e0b44-01e6-477b-b697-f9e114c072df:b'Ti9B':https://portal.sso.eu-north-1.amazonaws.com/saml/assertion/NjczNDU1MzQyODA5X2lucy05YTBiOGQyNmUxZGQwZWFh?SAMLRequest=fVLbbqMwFHzPVyDeAQMhNFYSiRa1G6nNpSF7ycvKAWfjlbFZH9M0%2BfrasNvLw9aWLPl4Zs7MkSdAat7grNVH8Uj%2FtBT0wHGeay4Ad09Tt1UCSwIMsCA1BaxLvMke7nHkI9woqWUpufuB9DmHAFClmRSWNM%2Bn7s80pSi8Sg5hMqzMUQ33KB5XcUTGo%2FRAaEqHZbIvR7ElfKUKDHfqGqlOAKClcwGaCG2KKIo9lHroqkAhjscYjXYWlZtcTBDdMY9aN4CDoJFKE%2B4DSJ%2B2njC3oxf6pCYXKcgJ%2FFLWgY0TvDoOFr%2FLyyLfhg%2BX9XmZZ8n3iLflGSU%2Fimu2vFufF%2FX2eXe3Pu2%2B3R5t39Xf%2BVwzUTHx6%2FPB7HsQ4C9FsfJWy01hJbJ%2FzW%2BkgLamakPVEyvp9vG%2Bj2KShFHqI7NN5ASh0J0ZnuNMrHncDUjNbOM%2BGj7RPfQagEvOqNBPjZgE79Fv%2FAYvjNF5vpKcleeubtetVDXR%2F88TGi%2B2wirv0EExrQnjWVUpCuC%2B6mScy9ONokTTqatVS10nmA0GvZuP%2F3L2Ag%3D%3D']
+
+2023-07-08 08:39:08.056 +07:00 [DBG] CM processsing: >LOG:1688780348,,AUTH: Received control message: AUTH_FAILED,CRV1:R:instance-1/7253256352440095953/012e0b44-01e6-477b-b697-f9e114c072df:b'Ti9B':https://portal.sso.eu-north-1.amazonaws.com/saml/assertion/NjczNDU1MzQyODA5X2lucy05YTBiOGQyNmUxZGQwZWFh?SAMLRequest=fVLbbqMwFHzPVyDeAQMhNFYSiRa1G6nNpSF7ycvKAWfjlbFZH9M0%2BfrasNvLw9aWLPl4Zs7MkSdAat7grNVH8Uj%2FtBT0wHGeay4Ad09Tt1UCSwIMsCA1BaxLvMke7nHkI9woqWUpufuB9DmHAFClmRSWNM%2Bn7s80pSi8Sg5hMqzMUQ33KB5XcUTGo%2FRAaEqHZbIvR7ElfKUKDHfqGqlOAKClcwGaCG2KKIo9lHroqkAhjscYjXYWlZtcTBDdMY9aN4CDoJFKE%2B4DSJ%2B2njC3oxf6pCYXKcgJ%2FFLWgY0TvDoOFr%2FLyyLfhg%2BX9XmZZ8n3iLflGSU%2Fimu2vFufF%2FX2eXe3Pu2%2B3R5t39Xf%2BVwzUTHx6%2FPB7HsQ4C9FsfJWy01hJbJ%2FzW%2BkgLamakPVEyvp9vG%2Bj2KShFHqI7NN5ASh0J0ZnuNMrHncDUjNbOM%2BGj7RPfQagEvOqNBPjZgE79Fv%2FAYvjNF5vpKcleeubtetVDXR%2F88TGi%2B2wirv0EExrQnjWVUpCuC%2B6mScy9ONokTTqatVS10nmA0GvZuP%2F3L2Ag%3D%3D
+2023-07-08 08:39:08.056 +07:00 [DBG] CM processsing: >PASSWORD:Verification Failed: 'Auth' ['CRV1:R:instance-1/7253256352440095953/012e0b44-01e6-477b-b697-f9e114c072df:b'Ti9B':https://portal.sso.eu-north-1.amazonaws.com/saml/assertion/NjczNDU1MzQyODA5X2lucy05YTBiOGQyNmUxZGQwZWFh?SAMLRequest=fVLbbqMwFHzPVyDeAQMhNFYSiRa1G6nNpSF7ycvKAWfjlbFZH9M0%2BfrasNvLw9aWLPl4Zs7MkSdAat7grNVH8Uj%2FtBT0wHGeay4Ad09Tt1UCSwIMsCA1BaxLvMke7nHkI9woqWUpufuB9DmHAFClmRSWNM%2Bn7s80pSi8Sg5hMqzMUQ33KB5XcUTGo%2FRAaEqHZbIvR7ElfKUKDHfqGqlOAKClcwGaCG2KKIo9lHroqkAhjscYjXYWlZtcTBDdMY9aN4CDoJFKE%2B4DSJ%2B2njC3oxf6pCYXKcgJ%2FFLWgY0TvDoOFr%2FLyyLfhg%2BX9XmZZ8n3iLflGSU%2Fimu2vFufF%2FX2eXe3Pu2%2B3R5t39Xf%2BVwzUTHx6%2FPB7HsQ4C9FsfJWy01hJbJ%2FzW%2BkgLamakPVEyvp9vG%2Bj2KShFHqI7NN5ASh0J0ZnuNMrHncDUjNbOM%2BGj7RPfQagEvOqNBPjZgE79Fv%2FAYvjNF5vpKcleeubtetVDXR%2F88TGi%2B2wirv0EExrQnjWVUpCuC%2B6mScy9ONokTTqatVS10nmA0GvZuP%2F3L2Ag%3D%3D']
+2023-07-08 08:39:08.057 +07:00 [DBG] Received SAML Client Deny Message
+2023-07-08 08:39:08.072 +07:00 [DBG] URL returned: https://portal.sso.eu-north-1.amazonaws.com/saml/assertion/NjczNDU1MzQyODA5X2lucy05YTBiOGQyNmUxZGQwZWFh?SAMLRequest=fVLbbqMwFHzPVyDeAQMhNFYSiRa1G6nNpSF7ycvKAWfjlbFZH9M0%2BfrasNvLw9aWLPl4Zs7MkSdAat7grNVH8Uj%2FtBT0wHGeay4Ad09Tt1UCSwIMsCA1BaxLvMke7nHkI9woqWUpufuB9DmHAFClmRSWNM%2Bn7s80pSi8Sg5hMqzMUQ33KB5XcUTGo%2FRAaEqHZbIvR7ElfKUKDHfqGqlOAKClcwGaCG2KKIo9lHroqkAhjscYjXYWlZtcTBDdMY9aN4CDoJFKE%2B4DSJ%2B2njC3oxf6pCYXKcgJ%2FFLWgY0TvDoOFr%2FLyyLfhg%2BX9XmZZ8n3iLflGSU%2Fimu2vFufF%2FX2eXe3Pu2%2B3R5t39Xf%2BVwzUTHx6%2FPB7HsQ4C9FsfJWy01hJbJ%2FzW%2BkgLamakPVEyvp9vG%2Bj2KShFHqI7NN5ASh0J0ZnuNMrHncDUjNbOM%2BGj7RPfQagEvOqNBPjZgE79Fv%2FAYvjNF5vpKcleeubtetVDXR%2F88TGi%2B2wirv0EExrQnjWVUpCuC%2B6mScy9ONokTTqatVS10nmA0GvZuP%2F3L2Ag%3D%3D
+2023-07-08 08:39:08.081 +07:00 [DBG] Inserted event UI_APP_VPN_CONNECT_GENERAL_ERROR 0 to MetricsTable
+2023-07-08 08:39:08.090 +07:00 [DBG] Starting timer
+2023-07-08 08:39:08.100 +07:00 [DBG] Attempting to open browser with URL: https://portal.sso.eu-north-1.amazonaws.com/saml/assertion/NjczNDU1MzQyODA5X2lucy05YTBiOGQyNmUxZGQwZWFh?SAMLRequest=fVLbbqMwFHzPVyDeAQMhNFYSiRa1G6nNpSF7ycvKAWfjlbFZH9M0%2BfrasNvLw9aWLPl4Zs7MkSdAat7grNVH8Uj%2FtBT0wHGeay4Ad09Tt1UCSwIMsCA1BaxLvMke7nHkI9woqWUpufuB9DmHAFClmRSWNM%2Bn7s80pSi8Sg5hMqzMUQ33KB5XcUTGo%2FRAaEqHZbIvR7ElfKUKDHfqGqlOAKClcwGaCG2KKIo9lHroqkAhjscYjXYWlZtcTBDdMY9aN4CDoJFKE%2B4DSJ%2B2njC3oxf6pCYXKcgJ%2FFLWgY0TvDoOFr%2FLyyLfhg%2BX9XmZZ8n3iLflGSU%2Fimu2vFufF%2FX2eXe3Pu2%2B3R5t39Xf%2BVwzUTHx6%2FPB7HsQ4C9FsfJWy01hJbJ%2FzW%2BkgLamakPVEyvp9vG%2Bj2KShFHqI7NN5ASh0J0ZnuNMrHncDUjNbOM%2BGj7RPfQagEvOqNBPjZgE79Fv%2FAYvjNF5vpKcleeubtetVDXR%2F88TGi%2B2wirv0EExrQnjWVUpCuC%2B6mScy9ONokTTqatVS10nmA0GvZuP%2F3L2Ag%3D%3D
+2023-07-08 08:39:08.514 +07:00 [DBG] Waiting for IDP response.
+2023-07-08 08:39:08.518 +07:00 [DBG] CM processsing: 
+2023-07-08 08:39:08.518 +07:00 [DBG] 🥶 APPEND line
+2023-07-08 08:39:08.518 +07:00 [INF] Begin receive init again
+2023-07-08 08:39:08.519 +07:00 [INF] Received bytes: 249
+2023-07-08 08:39:08.519 +07:00 [DBG] Message marshalling complete
+2023-07-08 08:39:08.520 +07:00 [DBG] CM received: >LOG:1688780348,I,SIGUSR1[soft,auth-failure] received, process restarting
+>LOG:1688780348,,MANAGEMENT: >STATE:1688780348,RECONNECTING,auth-failure,,,,,
+>STATE:1688780348,RECONNECTING,auth-failure,,,,,
+>LOG:1688780348,,Restart pause, 5 second(s)
+
+2023-07-08 08:39:08.520 +07:00 [DBG] CM processsing: >LOG:1688780348,I,SIGUSR1[soft,auth-failure] received, process restarting
+2023-07-08 08:39:08.521 +07:00 [DBG] CM processsing: >LOG:1688780348,,MANAGEMENT: >STATE:1688780348,RECONNECTING,auth-failure,,,,,
+2023-07-08 08:39:08.521 +07:00 [DBG] CM received state: >LOG:1688780348,,MANAGEMENT: >STATE:1688780348,RECONNECTING,auth-failure,,,,,
+2023-07-08 08:39:08.521 +07:00 [DBG] Expected openvpn reconnecting message while waiting for saml assertion
+2023-07-08 08:39:08.521 +07:00 [DBG] CM processsing: >STATE:1688780348,RECONNECTING,auth-failure,,,,,
+2023-07-08 08:39:08.521 +07:00 [DBG] CM received state: >STATE:1688780348,RECONNECTING,auth-failure,,,,,
+2023-07-08 08:39:08.521 +07:00 [DBG] Expected openvpn reconnecting message while waiting for saml assertion
+2023-07-08 08:39:08.521 +07:00 [DBG] CM processsing: >LOG:1688780348,,Restart pause, 5 second(s)
+2023-07-08 08:39:08.521 +07:00 [DBG] CM processsing: 
+2023-07-08 08:39:08.521 +07:00 [DBG] 🥶 APPEND line
+2023-07-08 08:39:08.521 +07:00 [INF] Begin receive init again
+2023-07-08 08:39:11.529 +07:00 [DBG] SAML ACS context signal:True
+2023-07-08 08:39:11.531 +07:00 [DBG] SAML ACS wait for next context.
+2023-07-08 08:39:11.531 +07:00 [DBG] SAML ACS processing context.
+2023-07-08 08:39:11.536 +07:00 [DBG] SAML ACS received a request: http://127.0.0.1:35001/
+2023-07-08 08:39:11.551 +07:00 [DBG] Received SAML response: 10806 bytes from IDP
+2023-07-08 08:39:11.579 +07:00 [DBG] Received event from acs
+2023-07-08 08:39:11.580 +07:00 [DBG] Succesfully retrieved and validated assertion from ACS
+2023-07-08 08:39:11.760 +07:00 [DBG] SAML ACS context signal:True
+2023-07-08 08:39:11.760 +07:00 [DBG] SAML ACS wait for next context.
+2023-07-08 08:39:11.761 +07:00 [DBG] SAML ACS processing context.
+2023-07-08 08:39:11.761 +07:00 [DBG] SAML ACS received a request: http://127.0.0.1:35001/favicon.ico
+2023-07-08 08:39:11.761 +07:00 [DBG] SAML ACS ignored request
+2023-07-08 08:39:13.427 +07:00 [INF] Received bytes: 41
+2023-07-08 08:39:13.429 +07:00 [DBG] Message marshalling complete
+2023-07-08 08:39:13.430 +07:00 [DBG] CM received: >PASSWORD:Need 'Auth' username/password
+
+2023-07-08 08:39:13.434 +07:00 [DBG] CM processsing: >PASSWORD:Need 'Auth' username/password
+2023-07-08 08:39:13.435 +07:00 [DBG] CM received user/pass request: >PASSWORD:Need 'Auth' username/password
+2023-07-08 08:39:13.455 +07:00 [DBG] CM processsing: 
+2023-07-08 08:39:13.455 +07:00 [DBG] 🥶 APPEND line
+2023-07-08 08:39:13.455 +07:00 [INF] Begin receive init again
+2023-07-08 08:39:13.460 +07:00 [DBG] SAML task status: RanToCompletion
+2023-07-08 08:39:13.464 +07:00 [DBG] Sending SAML username
+2023-07-08 08:39:13.469 +07:00 [INF] Received bytes: 57
+2023-07-08 08:39:13.469 +07:00 [DBG] Message marshalling complete
+2023-07-08 08:39:13.469 +07:00 [DBG] CM received: >LOG:1688780353,D,MANAGEMENT: CMD 'username "Auth" N/A'
+
+2023-07-08 08:39:13.470 +07:00 [DBG] CM processsing: >LOG:1688780353,D,MANAGEMENT: CMD 'username "Auth" N/A'
+2023-07-08 08:39:13.470 +07:00 [DBG] CM processsing: 
+2023-07-08 08:39:13.470 +07:00 [DBG] 🥶 APPEND line
+2023-07-08 08:39:13.470 +07:00 [INF] Begin receive init again
+2023-07-08 08:39:13.471 +07:00 [INF] Received bytes: 94
+2023-07-08 08:39:13.471 +07:00 [DBG] Message marshalling complete
+2023-07-08 08:39:13.471 +07:00 [DBG] CM received: SUCCESS: 'Auth' username entered, but not yet verified
+>LOG:1688780353,D,MANAGEMENT: CMD ''
+
+2023-07-08 08:39:13.471 +07:00 [DBG] CM processsing: SUCCESS: 'Auth' username entered, but not yet verified
+2023-07-08 08:39:13.471 +07:00 [DBG] 🥶 ONE lineSUCCESS: 'Auth' username entered, but not yet verified
+2023-07-08 08:39:13.472 +07:00 [DBG] Sending SAML assertion message: 10898 bytes to OpenVPN
+2023-07-08 08:39:13.473 +07:00 [DBG] CM processsing: >LOG:1688780353,D,MANAGEMENT: CMD ''
+2023-07-08 08:39:13.473 +07:00 [DBG] CM processsing: 
+2023-07-08 08:39:13.473 +07:00 [DBG] 🥶 APPEND line
+2023-07-08 08:39:13.473 +07:00 [INF] Begin receive init again
+2023-07-08 08:39:13.477 +07:00 [INF] Received bytes: 52
+2023-07-08 08:39:13.478 +07:00 [DBG] Message marshalling complete
+2023-07-08 08:39:13.478 +07:00 [DBG] CM received: >LOG:1688780353,D,MANAGEMENT: CMD 'password [...]'
+
+2023-07-08 08:39:13.478 +07:00 [DBG] CM processsing: >LOG:1688780353,D,MANAGEMENT: CMD 'password [...]'
+2023-07-08 08:39:13.478 +07:00 [DBG] CM processsing: 
+2023-07-08 08:39:13.478 +07:00 [DBG] 🥶 APPEND line
+2023-07-08 08:39:13.478 +07:00 [INF] Begin receive init again
+2023-07-08 08:39:13.478 +07:00 [INF] Received bytes: 94
+2023-07-08 08:39:13.478 +07:00 [DBG] Message marshalling complete
+2023-07-08 08:39:13.479 +07:00 [DBG] CM received: SUCCESS: 'Auth' password entered, but not yet verified
+>LOG:1688780353,D,MANAGEMENT: CMD ''
+
+2023-07-08 08:39:13.479 +07:00 [DBG] CM processsing: SUCCESS: 'Auth' password entered, but not yet verified
+2023-07-08 08:39:13.479 +07:00 [DBG] 🥶 ONE lineSUCCESS: 'Auth' password entered, but not yet verified
+2023-07-08 08:39:13.490 +07:00 [DBG] Inserted event UI_APP_VPN_CONNECT_ATTEMPT 1 to AnalyticsTable
+2023-07-08 08:39:13.490 +07:00 [DBG] Shutting down metrics agent
+2023-07-08 08:39:13.494 +07:00 [DBG] Inserted event UI_APP_VPN_CONNECT_GENERAL_ERROR 0 to MetricsTable
+2023-07-08 08:39:13.498 +07:00 [DBG] Attempting cancel SAML flow if in progress
+2023-07-08 08:39:13.502 +07:00 [DBG] Stoping timer
+2023-07-08 08:39:13.510 +07:00 [DBG] Stopping SAML ACS server
+2023-07-08 08:39:13.543 +07:00 [DBG] SAML ACS context signal:True
+2023-07-08 08:39:13.543 +07:00 [DBG] SAML ACS processing context.
+2023-07-08 08:39:13.543 +07:00 [DBG] SAML ACS listen loop end.
+2023-07-08 08:39:13.543 +07:00 [DBG] SAML ACS was stopped.
+2023-07-08 08:39:13.544 +07:00 [DBG] SAML ACS server stopped
+2023-07-08 08:39:13.544 +07:00 [DBG] CM processsing: >LOG:1688780353,D,MANAGEMENT: CMD ''
+2023-07-08 08:39:13.544 +07:00 [DBG] CM processsing: 
+2023-07-08 08:39:13.544 +07:00 [DBG] 🥶 APPEND line
+2023-07-08 08:39:13.544 +07:00 [INF] Begin receive init again
+2023-07-08 08:39:13.545 +07:00 [INF] Received bytes: 484
+2023-07-08 08:39:13.545 +07:00 [DBG] Message marshalling complete
+2023-07-08 08:39:13.545 +07:00 [DBG] CM received: >LOG:1688780353,W,NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+>LOG:1688780353,I,TCP/UDP: Preserving recently used remote address: [AF_INET]13.48.221.199:443
+>LOG:1688780353,,Socket Buffers: R=[786896->786896] S=[9216->9216]
+>LOG:1688780353,I,UDP link local: (not bound)
+>LOG:1688780353,I,UDP link remote: [AF_INET]13.48.221.199:443
+>LOG:1688780353,,MANAGEMENT: >STATE:1688780353,WAIT,,,,,,
+>STATE:1688780353,WAIT,,,,,,
+
+2023-07-08 08:39:13.545 +07:00 [DBG] CM processsing: >LOG:1688780353,W,NOTE: the current --script-security setting may allow this configuration to call user-defined scripts
+2023-07-08 08:39:13.545 +07:00 [DBG] CM processsing: >LOG:1688780353,I,TCP/UDP: Preserving recently used remote address: [AF_INET]13.48.221.199:443
+2023-07-08 08:39:13.545 +07:00 [DBG] CM processsing: >LOG:1688780353,,Socket Buffers: R=[786896->786896] S=[9216->9216]
+2023-07-08 08:39:13.545 +07:00 [DBG] CM processsing: >LOG:1688780353,I,UDP link local: (not bound)
+2023-07-08 08:39:13.545 +07:00 [DBG] CM processsing: >LOG:1688780353,I,UDP link remote: [AF_INET]13.48.221.199:443
+2023-07-08 08:39:13.545 +07:00 [DBG] CM processsing: >LOG:1688780353,,MANAGEMENT: >STATE:1688780353,WAIT,,,,,,
+2023-07-08 08:39:13.545 +07:00 [DBG] CM received state: >LOG:1688780353,,MANAGEMENT: >STATE:1688780353,WAIT,,,,,,
+2023-07-08 08:39:13.545 +07:00 [DBG] CM processsing: >STATE:1688780353,WAIT,,,,,,
+2023-07-08 08:39:13.545 +07:00 [DBG] CM received state: >STATE:1688780353,WAIT,,,,,,
+2023-07-08 08:39:13.545 +07:00 [DBG] CM processsing: 
+2023-07-08 08:39:13.545 +07:00 [DBG] 🥶 APPEND line
+2023-07-08 08:39:13.545 +07:00 [INF] Begin receive init again
+2023-07-08 08:39:13.721 +07:00 [INF] Received bytes: 89
+2023-07-08 08:39:13.721 +07:00 [DBG] Message marshalling complete
+2023-07-08 08:39:13.721 +07:00 [DBG] CM received: >LOG:1688780353,,MANAGEMENT: >STATE:1688780353,AUTH,,,,,,
+>STATE:1688780353,AUTH,,,,,,
+
+2023-07-08 08:39:13.722 +07:00 [DBG] CM processsing: >LOG:1688780353,,MANAGEMENT: >STATE:1688780353,AUTH,,,,,,
+2023-07-08 08:39:13.722 +07:00 [DBG] CM received state: >LOG:1688780353,,MANAGEMENT: >STATE:1688780353,AUTH,,,,,,
+2023-07-08 08:39:13.722 +07:00 [DBG] CM processsing: >STATE:1688780353,AUTH,,,,,,
+2023-07-08 08:39:13.722 +07:00 [DBG] CM received state: >STATE:1688780353,AUTH,,,,,,
+2023-07-08 08:39:13.722 +07:00 [DBG] CM processsing: 
+2023-07-08 08:39:13.722 +07:00 [DBG] 🥶 APPEND line
+2023-07-08 08:39:13.722 +07:00 [INF] Begin receive init again
+2023-07-08 08:39:13.722 +07:00 [INF] Received bytes: 93
+2023-07-08 08:39:13.722 +07:00 [DBG] Message marshalling complete
+2023-07-08 08:39:13.722 +07:00 [DBG] CM received: >LOG:1688780353,,TLS: Initial packet from [AF_INET]13.48.221.199:443, sid=27da8d3f 06848cca
+
+2023-07-08 08:39:13.722 +07:00 [DBG] CM processsing: >LOG:1688780353,,TLS: Initial packet from [AF_INET]13.48.221.199:443, sid=27da8d3f 06848cca
+2023-07-08 08:39:13.723 +07:00 [DBG] CM processsing: 
+2023-07-08 08:39:13.723 +07:00 [DBG] 🥶 APPEND line
+2023-07-08 08:39:13.723 +07:00 [INF] Begin receive init again
+2023-07-08 08:39:14.181 +07:00 [INF] Received bytes: 156
+2023-07-08 08:39:14.181 +07:00 [DBG] Message marshalling complete
+2023-07-08 08:39:14.181 +07:00 [DBG] CM received: >LOG:1688780354,,VERIFY OK: depth=3, C=US, ST=Arizona, L=Scottsdale, O=Starfield Technologies, Inc., CN=Starfield Services Root Certificate Authority - G2
+
+2023-07-08 08:39:14.181 +07:00 [DBG] CM processsing: >LOG:1688780354,,VERIFY OK: depth=3, C=US, ST=Arizona, L=Scottsdale, O=Starfield Technologies, Inc., CN=Starfield Services Root Certificate Authority - G2
+2023-07-08 08:39:14.181 +07:00 [DBG] CM processsing: 
+2023-07-08 08:39:14.181 +07:00 [DBG] 🥶 APPEND line
+2023-07-08 08:39:14.181 +07:00 [INF] Begin receive init again
+2023-07-08 08:39:14.181 +07:00 [INF] Received bytes: 74
+2023-07-08 08:39:14.181 +07:00 [DBG] Message marshalling complete
+2023-07-08 08:39:14.182 +07:00 [DBG] CM received: >LOG:1688780354,,VERIFY OK: depth=2, C=US, O=Amazon, CN=Amazon Root CA 1
+
+2023-07-08 08:39:14.182 +07:00 [DBG] CM processsing: >LOG:1688780354,,VERIFY OK: depth=2, C=US, O=Amazon, CN=Amazon Root CA 1
+2023-07-08 08:39:14.182 +07:00 [DBG] CM processsing: 
+2023-07-08 08:39:14.182 +07:00 [DBG] 🥶 APPEND line
+2023-07-08 08:39:14.182 +07:00 [INF] Begin receive init again
+2023-07-08 08:39:14.182 +07:00 [INF] Received bytes: 77
+2023-07-08 08:39:14.182 +07:00 [DBG] Message marshalling complete
+2023-07-08 08:39:14.182 +07:00 [DBG] CM received: >LOG:1688780354,,VERIFY OK: depth=1, C=US, O=Amazon, CN=Amazon RSA 2048 M02
+
+2023-07-08 08:39:14.182 +07:00 [DBG] CM processsing: >LOG:1688780354,,VERIFY OK: depth=1, C=US, O=Amazon, CN=Amazon RSA 2048 M02
+2023-07-08 08:39:14.182 +07:00 [DBG] CM processsing: 
+2023-07-08 08:39:14.182 +07:00 [DBG] 🥶 APPEND line
+2023-07-08 08:39:14.182 +07:00 [INF] Begin receive init again
+2023-07-08 08:39:14.182 +07:00 [INF] Received bytes: 353
+2023-07-08 08:39:14.182 +07:00 [DBG] Message marshalling complete
+2023-07-08 08:39:14.183 +07:00 [DBG] CM received: >LOG:1688780354,,VERIFY KU OK
+>LOG:1688780354,,Validating certificate extended key usage
+>LOG:1688780354,,++ Certificate has EKU (str) TLS Web Server Authentication, expects TLS Web Server Authentication
+>LOG:1688780354,,VERIFY EKU OK
+>LOG:1688780354,,VERIFY X509NAME OK: CN=*.pocketlaw.com
+>LOG:1688780354,,VERIFY OK: depth=0, CN=*.pocketlaw.com
+
+2023-07-08 08:39:14.183 +07:00 [DBG] CM processsing: >LOG:1688780354,,VERIFY KU OK
+2023-07-08 08:39:14.183 +07:00 [DBG] CM processsing: >LOG:1688780354,,Validating certificate extended key usage
+2023-07-08 08:39:14.183 +07:00 [DBG] CM processsing: >LOG:1688780354,,++ Certificate has EKU (str) TLS Web Server Authentication, expects TLS Web Server Authentication
+2023-07-08 08:39:14.183 +07:00 [DBG] CM processsing: >LOG:1688780354,,VERIFY EKU OK
+2023-07-08 08:39:14.183 +07:00 [DBG] CM processsing: >LOG:1688780354,,VERIFY X509NAME OK: CN=*.pocketlaw.com
+2023-07-08 08:39:14.183 +07:00 [DBG] CM processsing: >LOG:1688780354,,VERIFY OK: depth=0, CN=*.pocketlaw.com
+2023-07-08 08:39:14.183 +07:00 [DBG] CM processsing: 
+2023-07-08 08:39:14.183 +07:00 [DBG] 🥶 APPEND line
+2023-07-08 08:39:14.183 +07:00 [INF] Begin receive init again
+2023-07-08 08:39:15.001 +07:00 [INF] Received bytes: 105
+2023-07-08 08:39:15.001 +07:00 [DBG] Message marshalling complete
+2023-07-08 08:39:15.001 +07:00 [DBG] CM received: >LOG:1688780355,,Control Channel: TLSv1.2, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+
+2023-07-08 08:39:15.001 +07:00 [DBG] CM processsing: >LOG:1688780355,,Control Channel: TLSv1.2, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+2023-07-08 08:39:15.002 +07:00 [DBG] CM processsing: 
+2023-07-08 08:39:15.002 +07:00 [DBG] 🥶 APPEND line
+2023-07-08 08:39:15.002 +07:00 [INF] Begin receive init again
+2023-07-08 08:39:15.002 +07:00 [INF] Received bytes: 95
+2023-07-08 08:39:15.002 +07:00 [DBG] Message marshalling complete
+2023-07-08 08:39:15.002 +07:00 [DBG] CM received: >LOG:1688780355,I,[*.pocketlaw.com] Peer Connection Initiated with [AF_INET]13.48.221.199:443
+
+2023-07-08 08:39:15.002 +07:00 [DBG] CM processsing: >LOG:1688780355,I,[*.pocketlaw.com] Peer Connection Initiated with [AF_INET]13.48.221.199:443
+2023-07-08 08:39:15.002 +07:00 [DBG] CM processsing: 
+2023-07-08 08:39:15.002 +07:00 [DBG] 🥶 APPEND line
+2023-07-08 08:39:15.002 +07:00 [INF] Begin receive init again
+2023-07-08 08:39:16.181 +07:00 [INF] Received bytes: 65
+2023-07-08 08:39:16.181 +07:00 [DBG] Message marshalling complete
+2023-07-08 08:39:16.182 +07:00 [DBG] CM received: >LOG:1688780356,,MANAGEMENT: >STATE:1688780356,GET_CONFIG,,,,,,
+
+2023-07-08 08:39:16.182 +07:00 [DBG] CM processsing: >LOG:1688780356,,MANAGEMENT: >STATE:1688780356,GET_CONFIG,,,,,,
+2023-07-08 08:39:16.182 +07:00 [DBG] CM received state: >LOG:1688780356,,MANAGEMENT: >STATE:1688780356,GET_CONFIG,,,,,,
+2023-07-08 08:39:16.182 +07:00 [DBG] CM processsing: 
+2023-07-08 08:39:16.182 +07:00 [DBG] 🥶 APPEND line
+2023-07-08 08:39:16.182 +07:00 [INF] Begin receive init again
+2023-07-08 08:39:16.183 +07:00 [INF] Received bytes: 36
+2023-07-08 08:39:16.183 +07:00 [DBG] Message marshalling complete
+2023-07-08 08:39:16.183 +07:00 [DBG] CM received: >STATE:1688780356,GET_CONFIG,,,,,,
+
+2023-07-08 08:39:16.183 +07:00 [DBG] CM processsing: >STATE:1688780356,GET_CONFIG,,,,,,
+2023-07-08 08:39:16.183 +07:00 [DBG] CM received state: >STATE:1688780356,GET_CONFIG,,,,,,
+2023-07-08 08:39:16.183 +07:00 [DBG] CM processsing: 
+2023-07-08 08:39:16.183 +07:00 [DBG] 🥶 APPEND line
+2023-07-08 08:39:16.183 +07:00 [INF] Begin receive init again
+2023-07-08 08:39:16.183 +07:00 [INF] Received bytes: 76
+2023-07-08 08:39:16.183 +07:00 [DBG] Message marshalling complete
+2023-07-08 08:39:16.184 +07:00 [DBG] CM received: >LOG:1688780356,,SENT CONTROL [*.pocketlaw.com]: 'PUSH_REQUEST' (status=1)
+
+2023-07-08 08:39:16.184 +07:00 [DBG] CM processsing: >LOG:1688780356,,SENT CONTROL [*.pocketlaw.com]: 'PUSH_REQUEST' (status=1)
+2023-07-08 08:39:16.184 +07:00 [DBG] CM processsing: 
+2023-07-08 08:39:16.184 +07:00 [DBG] 🥶 APPEND line
+2023-07-08 08:39:16.184 +07:00 [INF] Begin receive init again
+2023-07-08 08:39:16.395 +07:00 [INF] Received bytes: 370
+2023-07-08 08:39:16.395 +07:00 [DBG] Message marshalling complete
+2023-07-08 08:39:16.396 +07:00 [DBG] CM received: >LOG:1688780356,,PUSH: Received control message: 'PUSH_REPLY,dhcp-option DNS 172.30.0.2,route 10.20.0.0 255.255.0.0,route 10.1.0.0 255.255.0.0,route 172.30.0.0 255.255.0.0,route 172.31.0.0 255.255.0.0,route 10.10.0.0 255.255.0.0,route-gateway 10.0.0.129,topology subnet,ping 1,ping-restart 20,echo,echo,ifconfig 10.0.0.130 255.255.255.224,peer-id 0,cipher AES-256-GCM'
+
+2023-07-08 08:39:16.396 +07:00 [DBG] CM processsing: >LOG:1688780356,,PUSH: Received control message: 'PUSH_REPLY,dhcp-option DNS 172.30.0.2,route 10.20.0.0 255.255.0.0,route 10.1.0.0 255.255.0.0,route 172.30.0.0 255.255.0.0,route 172.31.0.0 255.255.0.0,route 10.10.0.0 255.255.0.0,route-gateway 10.0.0.129,topology subnet,ping 1,ping-restart 20,echo,echo,ifconfig 10.0.0.130 255.255.255.224,peer-id 0,cipher AES-256-GCM'
+2023-07-08 08:39:16.396 +07:00 [DBG] CM processsing: 
+2023-07-08 08:39:16.396 +07:00 [DBG] 🥶 APPEND line
+2023-07-08 08:39:16.396 +07:00 [INF] Begin receive init again
+2023-07-08 08:39:16.403 +07:00 [INF] Received bytes: 483
+2023-07-08 08:39:16.403 +07:00 [DBG] Message marshalling complete
+2023-07-08 08:39:16.403 +07:00 [DBG] CM received: >ECHO:1688780356,CRV1::BM::VU5BVVRIT1JJWkVEIEFDQ0VTUyBUTyBUSElTIFNZU1RFTSBJUyBQUk9ISUJJVEVEIQoKVGhpcyBzeXN0ZW0gaXMgZm9yIHRoZSB1c2Ugb2YgYXV0aG9yaXplZCB1c2VycyBvbmx5LiBJbmRpdmlkdWFscyB1c2luZyB0aGlzIHN5c3RlbSB3aXRob3V0IGF1dGhvcml0eSwgb3IgaW4gZXhjZXNzIG9mIHRoZWlyIGF1dGhvcml0eSwgYXJlIHN1YmplY3QgdG8gaGF2aW5nIGFsbCBvZiB0aGVpciBhY3Rpdml0aWVzIG9uIHRoaXMgc3lzdGVtIG1vbml0b3JlZCBhbmQgcmVjb3JkZWQgYnkgc3lzdGVtIHBlcnNvbm5lbC4=::56fe1673164b1e84fa0155724c33e0c865eb2daeb2d366e690b68abdce080e36
+
+2023-07-08 08:39:16.404 +07:00 [DBG] CM processsing: >ECHO:1688780356,CRV1::BM::VU5BVVRIT1JJWkVEIEFDQ0VTUyBUTyBUSElTIFNZU1RFTSBJUyBQUk9ISUJJVEVEIQoKVGhpcyBzeXN0ZW0gaXMgZm9yIHRoZSB1c2Ugb2YgYXV0aG9yaXplZCB1c2VycyBvbmx5LiBJbmRpdmlkdWFscyB1c2luZyB0aGlzIHN5c3RlbSB3aXRob3V0IGF1dGhvcml0eSwgb3IgaW4gZXhjZXNzIG9mIHRoZWlyIGF1dGhvcml0eSwgYXJlIHN1YmplY3QgdG8gaGF2aW5nIGFsbCBvZiB0aGVpciBhY3Rpdml0aWVzIG9uIHRoaXMgc3lzdGVtIG1vbml0b3JlZCBhbmQgcmVjb3JkZWQgYnkgc3lzdGVtIHBlcnNvbm5lbC4=::56fe1673164b1e84fa0155724c33e0c865eb2daeb2d366e690b68abdce080e36
+2023-07-08 08:39:16.436 +07:00 [DBG] Checksum match: 56fe1673164b1e84fa0155724c33e0c865eb2daeb2d366e690b68abdce080e36
+2023-07-08 08:39:16.438 +07:00 [DBG] Message Length: 290
+2023-07-08 08:39:16.445 +07:00 [DBG] Received compliance message UNAUTHORIZED ACCESS TO THIS SYSTEM IS PROHIBITED!
+
+This system is for the use of authorized users only. Individuals using this system without authority, or in excess of their authority, are subject to having all of their activities on this system monitored and recorded by system personnel.. Show to user.
+2023-07-08 08:39:16.456 +07:00 [DBG] BannerMessage UNAUTHORIZED ACCESS TO THIS SYSTEM IS PROHIBITED!
+
+This system is for the use of authorized users only. Individuals using this system without authority, or in excess of their authority, are subject to having all of their activities on this system monitored and recorded by system personnel.
+2023-07-08 08:39:16.543 +07:00 [DBG] CM processsing: 
+2023-07-08 08:39:16.544 +07:00 [DBG] 🥶 APPEND line
+2023-07-08 08:39:16.544 +07:00 [INF] Begin receive init again
+2023-07-08 08:39:16.544 +07:00 [INF] Received bytes: 2023
+2023-07-08 08:39:16.544 +07:00 [DBG] Message marshalling complete
+2023-07-08 08:39:16.544 +07:00 [DBG] CM received: >ECHO:1688780356,CRV1::VPN_IP::13.48.221.199
+>LOG:1688780356,,OPTIONS IMPORT: timers and/or timeouts modified
+>LOG:1688780356,,OPTIONS IMPORT: --ifconfig/up options modified
+>LOG:1688780356,,OPTIONS IMPORT: route options modified
+>LOG:1688780356,,OPTIONS IMPORT: route-related options modified
+>LOG:1688780356,,OPTIONS IMPORT: --ip-win32 and/or --dhcp-option options modified
+>LOG:1688780356,,OPTIONS IMPORT: peer-id set
+>LOG:1688780356,,OPTIONS IMPORT: adjusting link_mtu to 1624
+>LOG:1688780356,,OPTIONS IMPORT: data channel crypto options modified
+>LOG:1688780356,,Outgoing Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+>LOG:1688780356,,Incoming Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+>LOG:1688780356,,ROUTE_GATEWAY 192.168.28.1/255.255.255.0 IFACE=en0 HWADDR=f8:4d:89:7e:86:e3
+>LOG:1688780356,,Opening utun (connect(AF_SYS_CONTROL)): Resource busy (errno=16)
+>LOG:1688780356,,Opening utun (connect(AF_SYS_CONTROL)): Resource busy (errno=16)
+>LOG:1688780356,,Opening utun (connect(AF_SYS_CONTROL)): Resource busy (errno=16)
+>LOG:1688780356,,Opening utun (connect(AF_SYS_CONTROL)): Resource busy (errno=16)
+>LOG:1688780356,,Opening utun (connect(AF_SYS_CONTROL)): Resource busy (errno=16)
+>LOG:1688780356,,Opening utun (connect(AF_SYS_CONTROL)): Resource busy (errno=16)
+>LOG:1688780356,,Opening utun (connect(AF_SYS_CONTROL)): Resource busy (errno=16)
+>LOG:1688780356,,Opening utun (connect(AF_SYS_CONTROL)): Resource busy (errno=16)
+>LOG:1688780356,,Opening utun (connect(AF_SYS_CONTROL)): Resource busy (errno=16)
+>LOG:1688780356,,Opening utun (connect(AF_SYS_CONTROL)): Resource busy (errno=16)
+>LOG:1688780356,,Opening utun (connect(AF_SYS_CONTROL)): Resource busy (errno=16)
+>LOG:1688780356,I,Opened utun device utun11
+>LOG:1688780356,D,do_ifconfig, tt->did_ifconfig_ipv6_setup=0
+>LOG:1688780356,,MANAGEMENT: >STATE:1688780356,ASSIGN_IP,,10.0.0.130,,,,
+>STATE:1688780356,ASSIGN_IP,,10.0.0.130,,,,
+>LOG:1688780356,I,/sbin/ifconfig utun11 delete
+
+2023-07-08 08:39:16.544 +07:00 [DBG] CM processsing: >ECHO:1688780356,CRV1::VPN_IP::13.48.221.199
+2023-07-08 08:39:16.544 +07:00 [DBG] CM processsing: >LOG:1688780356,,OPTIONS IMPORT: timers and/or timeouts modified
+2023-07-08 08:39:16.544 +07:00 [DBG] CM processsing: >LOG:1688780356,,OPTIONS IMPORT: --ifconfig/up options modified
+2023-07-08 08:39:16.544 +07:00 [DBG] CM processsing: >LOG:1688780356,,OPTIONS IMPORT: route options modified
+2023-07-08 08:39:16.545 +07:00 [DBG] CM processsing: >LOG:1688780356,,OPTIONS IMPORT: route-related options modified
+2023-07-08 08:39:16.545 +07:00 [DBG] CM processsing: >LOG:1688780356,,OPTIONS IMPORT: --ip-win32 and/or --dhcp-option options modified
+2023-07-08 08:39:16.545 +07:00 [DBG] CM processsing: >LOG:1688780356,,OPTIONS IMPORT: peer-id set
+2023-07-08 08:39:16.545 +07:00 [DBG] CM processsing: >LOG:1688780356,,OPTIONS IMPORT: adjusting link_mtu to 1624
+2023-07-08 08:39:16.545 +07:00 [DBG] CM processsing: >LOG:1688780356,,OPTIONS IMPORT: data channel crypto options modified
+2023-07-08 08:39:16.545 +07:00 [DBG] CM processsing: >LOG:1688780356,,Outgoing Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+2023-07-08 08:39:16.545 +07:00 [DBG] CM processsing: >LOG:1688780356,,Incoming Data Channel: Cipher 'AES-256-GCM' initialized with 256 bit key
+2023-07-08 08:39:16.545 +07:00 [DBG] CM processsing: >LOG:1688780356,,ROUTE_GATEWAY 192.168.28.1/255.255.255.0 IFACE=en0 HWADDR=f8:4d:89:7e:86:e3
+2023-07-08 08:39:16.545 +07:00 [DBG] CM processsing: >LOG:1688780356,,Opening utun (connect(AF_SYS_CONTROL)): Resource busy (errno=16)
+2023-07-08 08:39:16.545 +07:00 [DBG] CM processsing: >LOG:1688780356,,Opening utun (connect(AF_SYS_CONTROL)): Resource busy (errno=16)
+2023-07-08 08:39:16.545 +07:00 [DBG] CM processsing: >LOG:1688780356,,Opening utun (connect(AF_SYS_CONTROL)): Resource busy (errno=16)
+2023-07-08 08:39:16.545 +07:00 [DBG] CM processsing: >LOG:1688780356,,Opening utun (connect(AF_SYS_CONTROL)): Resource busy (errno=16)
+2023-07-08 08:39:16.545 +07:00 [DBG] CM processsing: >LOG:1688780356,,Opening utun (connect(AF_SYS_CONTROL)): Resource busy (errno=16)
+2023-07-08 08:39:16.545 +07:00 [DBG] CM processsing: >LOG:1688780356,,Opening utun (connect(AF_SYS_CONTROL)): Resource busy (errno=16)
+2023-07-08 08:39:16.545 +07:00 [DBG] CM processsing: >LOG:1688780356,,Opening utun (connect(AF_SYS_CONTROL)): Resource busy (errno=16)
+2023-07-08 08:39:16.545 +07:00 [DBG] CM processsing: >LOG:1688780356,,Opening utun (connect(AF_SYS_CONTROL)): Resource busy (errno=16)
+2023-07-08 08:39:16.545 +07:00 [DBG] CM processsing: >LOG:1688780356,,Opening utun (connect(AF_SYS_CONTROL)): Resource busy (errno=16)
+2023-07-08 08:39:16.545 +07:00 [DBG] CM processsing: >LOG:1688780356,,Opening utun (connect(AF_SYS_CONTROL)): Resource busy (errno=16)
+2023-07-08 08:39:16.545 +07:00 [DBG] CM processsing: >LOG:1688780356,,Opening utun (connect(AF_SYS_CONTROL)): Resource busy (errno=16)
+2023-07-08 08:39:16.545 +07:00 [DBG] CM processsing: >LOG:1688780356,I,Opened utun device utun11
+2023-07-08 08:39:16.545 +07:00 [DBG] CM processsing: >LOG:1688780356,D,do_ifconfig, tt->did_ifconfig_ipv6_setup=0
+2023-07-08 08:39:16.545 +07:00 [DBG] CM processsing: >LOG:1688780356,,MANAGEMENT: >STATE:1688780356,ASSIGN_IP,,10.0.0.130,,,,
+2023-07-08 08:39:16.545 +07:00 [DBG] CM received state: >LOG:1688780356,,MANAGEMENT: >STATE:1688780356,ASSIGN_IP,,10.0.0.130,,,,
+2023-07-08 08:39:16.545 +07:00 [DBG] CM processsing: >STATE:1688780356,ASSIGN_IP,,10.0.0.130,,,,
+2023-07-08 08:39:16.545 +07:00 [DBG] CM received state: >STATE:1688780356,ASSIGN_IP,,10.0.0.130,,,,
+2023-07-08 08:39:16.545 +07:00 [DBG] CM processsing: >LOG:1688780356,I,/sbin/ifconfig utun11 delete
+2023-07-08 08:39:16.545 +07:00 [DBG] CM processsing: 
+2023-07-08 08:39:16.545 +07:00 [DBG] 🥶 APPEND line
+2023-07-08 08:39:16.545 +07:00 [INF] Begin receive init again
+2023-07-08 08:39:16.601 +07:00 [INF] Received bytes: 96
+2023-07-08 08:39:16.601 +07:00 [DBG] Message marshalling complete
+2023-07-08 08:39:16.601 +07:00 [DBG] CM received: >LOG:1688780356,I,NOTE: Tried to delete pre-existing tun/tap instance -- No Problem if failure
+
+2023-07-08 08:39:16.602 +07:00 [DBG] CM processsing: >LOG:1688780356,I,NOTE: Tried to delete pre-existing tun/tap instance -- No Problem if failure
+2023-07-08 08:39:16.602 +07:00 [DBG] CM processsing: 
+2023-07-08 08:39:16.602 +07:00 [DBG] 🥶 APPEND line
+2023-07-08 08:39:16.602 +07:00 [INF] Begin receive init again
+2023-07-08 08:39:16.602 +07:00 [INF] Received bytes: 99
+2023-07-08 08:39:16.602 +07:00 [DBG] Message marshalling complete
+2023-07-08 08:39:16.602 +07:00 [DBG] CM received: >LOG:1688780356,I,/sbin/ifconfig utun11 10.0.0.130 10.0.0.130 netmask 255.255.255.224 mtu 1500 up
+
+2023-07-08 08:39:16.602 +07:00 [DBG] CM processsing: >LOG:1688780356,I,/sbin/ifconfig utun11 10.0.0.130 10.0.0.130 netmask 255.255.255.224 mtu 1500 up
+2023-07-08 08:39:16.602 +07:00 [DBG] CM processsing: 
+2023-07-08 08:39:16.602 +07:00 [DBG] 🥶 APPEND line
+2023-07-08 08:39:16.602 +07:00 [INF] Begin receive init again
+2023-07-08 08:39:16.612 +07:00 [INF] Received bytes: 77
+2023-07-08 08:39:16.613 +07:00 [DBG] Message marshalling complete
+2023-07-08 08:39:16.613 +07:00 [DBG] CM received: >LOG:1688780356,,/sbin/route add -net 10.0.0.128 10.0.0.130 255.255.255.224
+
+2023-07-08 08:39:16.613 +07:00 [DBG] CM processsing: >LOG:1688780356,,/sbin/route add -net 10.0.0.128 10.0.0.130 255.255.255.224
+2023-07-08 08:39:16.613 +07:00 [DBG] CM processsing: 
+2023-07-08 08:39:16.613 +07:00 [DBG] 🥶 APPEND line
+2023-07-08 08:39:16.613 +07:00 [INF] Begin receive init again
+2023-07-08 08:39:16.663 +07:00 [INF] Received bytes: 153
+2023-07-08 08:39:16.663 +07:00 [DBG] Message marshalling complete
+2023-07-08 08:39:16.663 +07:00 [DBG] CM received: >LOG:1688780356,I,/Applications/AWS VPN Client/AWS VPN Client.app/Contents/Resources/openvpn/client.up utun11 1500 1552 10.0.0.130 255.255.255.224 init
+
+2023-07-08 08:39:16.663 +07:00 [DBG] CM processsing: >LOG:1688780356,I,/Applications/AWS VPN Client/AWS VPN Client.app/Contents/Resources/openvpn/client.up utun11 1500 1552 10.0.0.130 255.255.255.224 init
+2023-07-08 08:39:16.663 +07:00 [DBG] CM processsing: 
+2023-07-08 08:39:16.663 +07:00 [DBG] 🥶 APPEND line
+2023-07-08 08:39:16.663 +07:00 [INF] Begin receive init again
+2023-07-08 08:39:22.267 +07:00 [INF] Received bytes: 173
+2023-07-08 08:39:22.269 +07:00 [DBG] Message marshalling complete
+2023-07-08 08:39:22.269 +07:00 [DBG] CM received: >LOG:1688780362,,MANAGEMENT: >STATE:1688780362,ADD_ROUTES,,,,,,
+>STATE:1688780362,ADD_ROUTES,,,,,,
+>LOG:1688780362,,/sbin/route add -net 10.20.0.0 10.0.0.129 255.255.0.0
+
+2023-07-08 08:39:22.270 +07:00 [DBG] CM processsing: >LOG:1688780362,,MANAGEMENT: >STATE:1688780362,ADD_ROUTES,,,,,,
+2023-07-08 08:39:22.270 +07:00 [DBG] CM received state: >LOG:1688780362,,MANAGEMENT: >STATE:1688780362,ADD_ROUTES,,,,,,
+2023-07-08 08:39:22.270 +07:00 [DBG] CM processsing: >STATE:1688780362,ADD_ROUTES,,,,,,
+2023-07-08 08:39:22.270 +07:00 [DBG] CM received state: >STATE:1688780362,ADD_ROUTES,,,,,,
+2023-07-08 08:39:22.270 +07:00 [DBG] CM processsing: >LOG:1688780362,,/sbin/route add -net 10.20.0.0 10.0.0.129 255.255.0.0
+2023-07-08 08:39:22.271 +07:00 [DBG] CM processsing: 
+2023-07-08 08:39:22.271 +07:00 [DBG] 🥶 APPEND line
+2023-07-08 08:39:22.271 +07:00 [INF] Begin receive init again
+2023-07-08 08:39:22.277 +07:00 [INF] Received bytes: 71
+2023-07-08 08:39:22.277 +07:00 [DBG] Message marshalling complete
+2023-07-08 08:39:22.280 +07:00 [DBG] CM received: >LOG:1688780362,,/sbin/route add -net 10.1.0.0 10.0.0.129 255.255.0.0
+
+2023-07-08 08:39:22.280 +07:00 [DBG] CM processsing: >LOG:1688780362,,/sbin/route add -net 10.1.0.0 10.0.0.129 255.255.0.0
+2023-07-08 08:39:22.280 +07:00 [DBG] CM processsing: 
+2023-07-08 08:39:22.280 +07:00 [DBG] 🥶 APPEND line
+2023-07-08 08:39:22.280 +07:00 [INF] Begin receive init again
+2023-07-08 08:39:22.285 +07:00 [INF] Received bytes: 73
+2023-07-08 08:39:22.285 +07:00 [DBG] Message marshalling complete
+2023-07-08 08:39:22.285 +07:00 [DBG] CM received: >LOG:1688780362,,/sbin/route add -net 172.30.0.0 10.0.0.129 255.255.0.0
+
+2023-07-08 08:39:22.285 +07:00 [DBG] CM processsing: >LOG:1688780362,,/sbin/route add -net 172.30.0.0 10.0.0.129 255.255.0.0
+2023-07-08 08:39:22.286 +07:00 [DBG] CM processsing: 
+2023-07-08 08:39:22.286 +07:00 [DBG] 🥶 APPEND line
+2023-07-08 08:39:22.286 +07:00 [INF] Begin receive init again
+2023-07-08 08:39:22.291 +07:00 [INF] Received bytes: 73
+2023-07-08 08:39:22.292 +07:00 [DBG] Message marshalling complete
+2023-07-08 08:39:22.292 +07:00 [DBG] CM received: >LOG:1688780362,,/sbin/route add -net 172.31.0.0 10.0.0.129 255.255.0.0
+
+2023-07-08 08:39:22.292 +07:00 [DBG] CM processsing: >LOG:1688780362,,/sbin/route add -net 172.31.0.0 10.0.0.129 255.255.0.0
+2023-07-08 08:39:22.293 +07:00 [DBG] CM processsing: 
+2023-07-08 08:39:22.293 +07:00 [DBG] 🥶 APPEND line
+2023-07-08 08:39:22.293 +07:00 [INF] Begin receive init again
+2023-07-08 08:39:22.298 +07:00 [INF] Received bytes: 72
+2023-07-08 08:39:22.298 +07:00 [DBG] Message marshalling complete
+2023-07-08 08:39:22.299 +07:00 [DBG] CM received: >LOG:1688780362,,/sbin/route add -net 10.10.0.0 10.0.0.129 255.255.0.0
+
+2023-07-08 08:39:22.299 +07:00 [DBG] CM processsing: >LOG:1688780362,,/sbin/route add -net 10.10.0.0 10.0.0.129 255.255.0.0
+2023-07-08 08:39:22.299 +07:00 [DBG] CM processsing: 
+2023-07-08 08:39:22.299 +07:00 [DBG] 🥶 APPEND line
+2023-07-08 08:39:22.299 +07:00 [INF] Begin receive init again
+2023-07-08 08:39:22.305 +07:00 [INF] Received bytes: 218
+2023-07-08 08:39:22.305 +07:00 [DBG] Message marshalling complete
+2023-07-08 08:39:22.306 +07:00 [DBG] CM received: >LOG:1688780362,I,Initialization Sequence Completed
+>LOG:1688780362,,MANAGEMENT: >STATE:1688780362,CONNECTED,SUCCESS,10.0.0.130,13.48.221.199,443,,
+>STATE:1688780362,CONNECTED,SUCCESS,10.0.0.130,13.48.221.199,443,,
+
+2023-07-08 08:39:22.306 +07:00 [DBG] CM processsing: >LOG:1688780362,I,Initialization Sequence Completed
+2023-07-08 08:39:22.306 +07:00 [DBG] CM processsing: >LOG:1688780362,,MANAGEMENT: >STATE:1688780362,CONNECTED,SUCCESS,10.0.0.130,13.48.221.199,443,,
+2023-07-08 08:39:22.306 +07:00 [DBG] CM received state: >LOG:1688780362,,MANAGEMENT: >STATE:1688780362,CONNECTED,SUCCESS,10.0.0.130,13.48.221.199,443,,
+2023-07-08 08:39:22.310 +07:00 [DBG] Starting DNS monitoring thread for Mac
+2023-07-08 08:39:22.315 +07:00 [DBG] Inserted event UI_APP_VPN_CONNECT_SUCCESS 1 to AnalyticsTable
+2023-07-08 08:39:22.317 +07:00 [DBG] Current OpenVPN PID is 32243
+2023-07-08 08:39:22.319 +07:00 [DBG] Inserted event CONNECTION_START_TIME 1688780362 to AnalyticsTable
+2023-07-08 08:39:22.327 +07:00 [DBG] Inserted event CONNECTION_INITIALIZATION_TIME 56227 to MetricsTable
+2023-07-08 08:39:22.329 +07:00 [DBG] Inserted event CONNECTION_INITIALIZATION_TIME 56227 to AnalyticsTable
+2023-07-08 08:39:22.347 +07:00 [DBG] Inserted event UI_APP_VPN_CONNECT_GENERAL_ERROR 0 to MetricsTable
+2023-07-08 08:39:22.350 +07:00 [DBG] Management port password authenticated.
+2023-07-08 08:39:22.353 +07:00 [DBG] CM processsing: >STATE:1688780362,CONNECTED,SUCCESS,10.0.0.130,13.48.221.199,443,,
+2023-07-08 08:39:22.353 +07:00 [DBG] CM received state: >STATE:1688780362,CONNECTED,SUCCESS,10.0.0.130,13.48.221.199,443,,
+2023-07-08 08:39:22.354 +07:00 [DBG] Mac DNS monitoring is already in progress. Skip
+2023-07-08 08:39:22.356 +07:00 [DBG] Inserted event UI_APP_VPN_CONNECT_SUCCESS 1 to AnalyticsTable
+2023-07-08 08:39:22.368 +07:00 [DBG] Inserted event UI_APP_VPN_CONNECT_GENERAL_ERROR 0 to MetricsTable
+2023-07-08 08:39:22.368 +07:00 [DBG] Management port password authenticated.
+2023-07-08 08:39:22.368 +07:00 [DBG] Destroyed management port password file on authentication.
+2023-07-08 08:39:22.368 +07:00 [DBG] CM processsing: 
+2023-07-08 08:39:22.368 +07:00 [DBG] 🥶 APPEND line
+2023-07-08 08:39:22.368 +07:00 [INF] Begin receive init again
+2023-07-08 08:39:22.373 +07:00 [DBG] Got DNS server string: 172.30.0.2 from the DNS verification file
+2023-07-08 08:39:22.373 +07:00 [DBG] PID specified in the DNS verification file is 32243
+2023-07-08 08:39:22.373 +07:00 [DBG] Current OpenVPN PID matches PID specified in the DNS verification file. Fetching DNS servers
+2023-07-08 08:39:22.393 +07:00 [DBG] Checking if 172.30.0.2 is an IPv4 address
+2023-07-08 08:39:22.393 +07:00 [DBG] 172.30.0.2 is in IPv4 format. Adding it to list
+2023-07-08 08:39:22.394 +07:00 [DBG] DNS servers for OpenVPN with pid 32243: 172.30.0.2
+2023-07-08 08:39:22.395 +07:00 [DBG] Tracing DNS queries with command: /usr/bin/dig +time=1 +retries=3 +trace . A
+2023-07-08 08:39:25.589 +07:00 [DBG] /usr/bin/dig exit code: 0
+2023-07-08 08:39:25.590 +07:00 [DBG] DNS queries are going through DNS server: 172.30.0.2
+2023-07-08 08:39:25.590 +07:00 [DBG] Sleeping 5 seconds before checking DNS again
+2023-07-08 08:39:30.599 +07:00 [DBG] Tracing DNS queries with command: /usr/bin/dig +time=1 +retries=3 +trace . A
+2023-07-08 08:39:30.944 +07:00 [DBG] /usr/bin/dig exit code: 0
+2023-07-08 08:39:30.944 +07:00 [DBG] DNS queries are going through DNS server: 172.30.0.2
+2023-07-08 08:39:30.945 +07:00 [DBG] Sleeping 5 seconds before checking DNS again
+2023-07-08 08:39:35.951 +07:00 [DBG] Tracing DNS queries with command: /usr/bin/dig +time=1 +retries=3 +trace . A
+2023-07-08 08:39:36.305 +07:00 [DBG] /usr/bin/dig exit code: 0
+2023-07-08 08:39:36.305 +07:00 [DBG] DNS queries are going through DNS server: 172.30.0.2
+2023-07-08 08:39:36.305 +07:00 [DBG] Sleeping 5 seconds before checking DNS again
+2023-07-08 08:39:38.003 +07:00 [DBG] Inserted event CLICK_APP_DISCONNECT 1 to AnalyticsTable
+2023-07-08 08:39:38.004 +07:00 [INF] Received bytes: 44
+2023-07-08 08:39:38.005 +07:00 [DBG] Message marshalling complete
+2023-07-08 08:39:38.005 +07:00 [DBG] CM received: >LOG:1688780378,D,MANAGEMENT: CMD 'status'
+
+2023-07-08 08:39:38.005 +07:00 [DBG] CM processsing: >LOG:1688780378,D,MANAGEMENT: CMD 'status'
+2023-07-08 08:39:38.006 +07:00 [DBG] CM processsing: 
+2023-07-08 08:39:38.006 +07:00 [DBG] 🥶 APPEND line
+2023-07-08 08:39:38.006 +07:00 [INF] Begin receive init again
+2023-07-08 08:39:38.006 +07:00 [INF] Received bytes: 187
+2023-07-08 08:39:38.006 +07:00 [DBG] Message marshalling complete
+2023-07-08 08:39:38.007 +07:00 [DBG] CM received: OpenVPN STATISTICS
+Updated,Sat Jul  8 08:39:38 2023
+TUN/TAP read bytes,5756
+TUN/TAP write bytes,12707
+TCP/UDP read bytes,23101
+TCP/UDP write bytes,20263
+Auth read bytes,13027
+END
+
+2023-07-08 08:39:38.007 +07:00 [DBG] CM processsing: OpenVPN STATISTICS
+2023-07-08 08:39:38.007 +07:00 [DBG] 🥶 APPEND line
+2023-07-08 08:39:38.007 +07:00 [DBG] CM processsing: Updated,Sat Jul  8 08:39:38 2023
+2023-07-08 08:39:38.007 +07:00 [DBG] 🥶 APPEND line
+2023-07-08 08:39:38.007 +07:00 [DBG] CM processsing: TUN/TAP read bytes,5756
+2023-07-08 08:39:38.007 +07:00 [DBG] 🥶 APPEND line
+2023-07-08 08:39:38.007 +07:00 [DBG] CM processsing: TUN/TAP write bytes,12707
+2023-07-08 08:39:38.007 +07:00 [DBG] 🥶 APPEND line
+2023-07-08 08:39:38.007 +07:00 [DBG] CM processsing: TCP/UDP read bytes,23101
+2023-07-08 08:39:38.007 +07:00 [DBG] 🥶 APPEND line
+2023-07-08 08:39:38.007 +07:00 [DBG] CM processsing: TCP/UDP write bytes,20263
+2023-07-08 08:39:38.007 +07:00 [DBG] 🥶 APPEND line
+2023-07-08 08:39:38.007 +07:00 [DBG] CM processsing: Auth read bytes,13027
+2023-07-08 08:39:38.007 +07:00 [DBG] 🥶 APPEND line
+2023-07-08 08:39:38.007 +07:00 [DBG] CM processsing: END
+2023-07-08 08:39:38.008 +07:00 [DBG] 🥶 END
+2023-07-08 08:39:38.011 +07:00 [DBG] CM processsing: 
+2023-07-08 08:39:38.011 +07:00 [DBG] 🥶 APPEND line
+2023-07-08 08:39:38.011 +07:00 [INF] Begin receive init again
+2023-07-08 08:39:38.021 +07:00 [DBG] Already received bytes: 23101
+2023-07-08 08:39:38.021 +07:00 [DBG] Already sent bytes: 20263
+2023-07-08 08:39:38.024 +07:00 [DBG] Inserted event CONNECTION_BYTES_SENT 20263 to AnalyticsTable
+2023-07-08 08:39:38.026 +07:00 [DBG] Inserted event CONNECTION_BYTES_RECEIVED 23101 to AnalyticsTable
+2023-07-08 08:39:38.027 +07:00 [DBG] Stopping DNS monitoring thread
+2023-07-08 08:39:38.027 +07:00 [DBG] Releasing DNS monitoring lock
+2023-07-08 08:39:38.029 +07:00 [DBG] Inserted event UI_APP_VPN_CONNECT_GENERAL_ERROR 0 to MetricsTable
+2023-07-08 08:39:38.030 +07:00 [INF] Terminating connection
+2023-07-08 08:39:38.031 +07:00 [WRN] Acs did not stop correctly!
+2023-07-08 08:39:38.031 +07:00 [DBG] 🏞 Ending connection details reporting.
+2023-07-08 08:39:38.031 +07:00 [WRN] We are calling GracefulKill in a method that is not supposed to change Connection state.
+2023-07-08 08:39:38.031 +07:00 [DBG] GracefulKill
+2023-07-08 08:39:38.031 +07:00 [DBG] Cancelling socket listen token
+2023-07-08 08:39:38.031 +07:00 [DBG] Dispose socket
+2023-07-08 08:39:38.032 +07:00 [DBG] Cancellation requested
+2023-07-08 08:39:38.037 +07:00 [DBG] Signal process kill with helper tool.
+2023-07-08 08:39:38.037 +07:00 [DBG] Starting process
+2023-07-08 08:39:38.107 +07:00 [DBG] Start to read process output
+2023-07-08 08:39:39.234 +07:00 [DBG] End reading process output
+2023-07-08 08:39:39.321 +07:00 [DBG] Helper app --kill output: Kill success.
+2023-07-08 08:39:39.321 +07:00 [DBG] Release process manager start lock
+2023-07-08 08:39:39.321 +07:00 [DBG] Release process manager stop lock
+2023-07-08 08:39:39.321 +07:00 [DBG] Disconnected
+2023-07-08 08:39:39.321 +07:00 [DBG] Stopping DNS monitoring thread
+2023-07-08 08:39:39.322 +07:00 [DBG] Releasing DNS monitoring lock
+2023-07-08 08:39:39.322 +07:00 [DBG] Metric agent started
+2023-07-08 08:39:39.322 +07:00 [DBG] Sending Metrics batches
+2023-07-08 08:39:39.326 +07:00 [DBG] Checking if table MetricsTable is empty
+2023-07-08 08:39:39.328 +07:00 [DBG] is empty: False
+2023-07-08 08:39:39.330 +07:00 [DBG] Metrics event batch successfully created, sending metrics
+2023-07-08 08:39:39.330 +07:00 [DBG] metrics region already exists in app: ap-northeast-2
+2023-07-08 08:39:39.330 +07:00 [DBG] Sending metrics batch async
+2023-07-08 08:39:39.330 +07:00 [DBG] OS: MacOS
+2023-07-08 08:39:39.330 +07:00 [DBG] OS: MacOS
+2023-07-08 08:39:39.330 +07:00 [DBG] OS: MacOS
+2023-07-08 08:39:39.330 +07:00 [DBG] OS: MacOS
+2023-07-08 08:39:39.330 +07:00 [DBG] OS: MacOS
+2023-07-08 08:39:39.330 +07:00 [DBG] OS: MacOS
+2023-07-08 08:39:39.330 +07:00 [DBG] OS: MacOS
+2023-07-08 08:39:39.330 +07:00 [DBG] OS: MacOS
+2023-07-08 08:39:39.330 +07:00 [DBG] OS: MacOS
+2023-07-08 08:39:39.330 +07:00 [DBG] OS: MacOS
+2023-07-08 08:39:39.330 +07:00 [DBG] OS: MacOS
+2023-07-08 08:39:39.330 +07:00 [DBG] Metrics data request created
+2023-07-08 08:39:39.342 +07:00 [DBG] Inserted event CONNECTION_END_TIME 1688780379 to AnalyticsTable
+2023-07-08 08:39:39.343 +07:00 [DBG] Inserted event CONNECTION_DURATION 17 to AnalyticsTable
+2023-07-08 08:39:39.345 +07:00 [DBG] Inserted event UI_APP_VPN_CONNECT_GENERAL_ERROR 0 to MetricsTable
+2023-07-08 08:39:39.345 +07:00 [DBG] Sending Analytics Batches
+2023-07-08 08:39:39.346 +07:00 [DBG] Checking if table AnalyticsTable is empty
+2023-07-08 08:39:39.346 +07:00 [DBG] is empty: False
+2023-07-08 08:39:39.347 +07:00 [DBG] Analytics event batch successfully created, sending analytics
+2023-07-08 08:39:39.347 +07:00 [DBG] Sending analytics batch async
+2023-07-08 08:39:39.347 +07:00 [DBG] metrics region already exists in app: ap-northeast-2
+2023-07-08 08:39:39.347 +07:00 [DBG] Pinpoint endpoint ID already exists
+2023-07-08 08:39:39.348 +07:00 [DBG] OSVersion: Unix 22.5.0.0
+2023-07-08 08:39:39.348 +07:00 [DBG] OS: MacOS
+2023-07-08 08:39:39.348 +07:00 [DBG] Endpoint ID: ap-northeast-2:43c8376a-ef88-4fca-86ae-265f1722012f
+2023-07-08 08:39:39.348 +07:00 [DBG] Pinpoint endpoint id: ap-northeast-2:43c8376a-ef88-4fca-86ae-265f1722012f
+2023-07-08 08:39:39.348 +07:00 [DBG] metrics region already exists in app: ap-northeast-2
+2023-07-08 08:39:39.349 +07:00 [DBG] OS: MacOS
+2023-07-08 08:39:39.349 +07:00 [DBG] OS: MacOS
+2023-07-08 08:39:39.349 +07:00 [DBG] metrics region already exists in app: ap-northeast-2
+2023-07-08 08:39:40.173 +07:00 [DBG] Caching credentials.
+2023-07-08 08:39:40.707 +07:00 [DBG] 7/8/2023 8:39:40 AM Accepted
+2023-07-08 08:39:40.708 +07:00 [DBG] successfully put analytics to pinpoint
+2023-07-08 08:39:40.708 +07:00 [DBG] Events batch was accepted. Checking individual events for accepted status.
+2023-07-08 08:39:40.711 +07:00 [DBG] Checking if table AnalyticsTable is empty
+2023-07-08 08:39:40.711 +07:00 [DBG] is empty: True
+2023-07-08 08:39:40.711 +07:00 [DBG] Finished sending batches of analytics to pinpoint.
+2023-07-08 08:39:40.829 +07:00 [DBG] CloudWatch response received
+2023-07-08 08:39:40.830 +07:00 [DBG] CloudWatch response status code: OK
+2023-07-08 08:39:40.830 +07:00 [DBG] successfully put metrics to cloudwatch
+2023-07-08 08:39:40.830 +07:00 [DBG] Deleting successfully sent batch of metric events
+2023-07-08 08:39:40.832 +07:00 [DBG] Checking if table MetricsTable is empty
+2023-07-08 08:39:40.832 +07:00 [DBG] is empty: False
+2023-07-08 08:39:40.832 +07:00 [DBG] Metrics event batch successfully created, sending metrics
+2023-07-08 08:39:40.832 +07:00 [DBG] metrics region already exists in app: ap-northeast-2
+2023-07-08 08:39:40.832 +07:00 [DBG] Sending metrics batch async
+2023-07-08 08:39:40.832 +07:00 [DBG] OS: MacOS
+2023-07-08 08:39:40.832 +07:00 [DBG] Metrics data request created
+2023-07-08 08:39:41.262 +07:00 [DBG] CloudWatch response received
+2023-07-08 08:39:41.262 +07:00 [DBG] CloudWatch response status code: OK
+2023-07-08 08:39:41.262 +07:00 [DBG] successfully put metrics to cloudwatch
+2023-07-08 08:39:41.262 +07:00 [DBG] Deleting successfully sent batch of metric events
+2023-07-08 08:39:41.266 +07:00 [DBG] Checking if table MetricsTable is empty
+2023-07-08 08:39:41.267 +07:00 [DBG] is empty: True
+2023-07-08 08:39:41.267 +07:00 [DBG] Finished sending batches of metrics to cloudwatch.
+2023-07-08 09:04:43.926 +07:00 [DBG] Inserted event CLICK_TRAY_ICON 1 to AnalyticsTable
+2023-07-08 09:04:43.930 +07:00 [DBG] Inserted event CLICK_TRAY_QUIT 1 to AnalyticsTable
+2023-07-08 09:04:45.012 +07:00 [DBG] Caught exception when getting connection status. Exception information: System.TimeoutException: The message did not respond within the expected timeframe or was cancelled
+  at ACVC.Core.OpenVpn.OvpnConnectionManager.SendMessage (System.String message, System.Int32 timeout, System.Threading.CancellationToken cancellationToken) [0x001ca] in <839fd5ab8f4b4389aa33b3f9b2f7dcd1>:0 
+  at ACVC.Core.OpenVpn.OvpnConnectionManager.GetConnectionStatus () [0x0007c] in <839fd5ab8f4b4389aa33b3f9b2f7dcd1>:0 
+  at ACVC.Core.Metrics.MetricsClient.RecordBytesMetricsAndAnalytics (ACVC.Core.IConnectionManager connectionManager) [0x00077] in <839fd5ab8f4b4389aa33b3f9b2f7dcd1>:0 
+2023-07-08 09:04:45.022 +07:00 [DBG] Stopping DNS monitoring thread
+2023-07-08 09:04:45.022 +07:00 [DBG] Releasing DNS monitoring lock
+2023-07-08 09:04:45.029 +07:00 [DBG] Inserted event UI_APP_VPN_CONNECT_GENERAL_ERROR 0 to MetricsTable
+2023-07-08 09:04:45.036 +07:00 [INF] Terminating connection
+2023-07-08 09:04:45.036 +07:00 [WRN] Acs did not stop correctly!
+2023-07-08 09:04:45.036 +07:00 [DBG] 🏞 Ending connection details reporting.
+2023-07-08 09:04:45.036 +07:00 [WRN] We are calling GracefulKill in a method that is not supposed to change Connection state.
+2023-07-08 09:04:45.036 +07:00 [DBG] GracefulKill
+2023-07-08 09:04:45.036 +07:00 [DBG] Cancelling socket listen token
+2023-07-08 09:04:45.036 +07:00 [DBG] Dispose socket
+2023-07-08 09:04:45.036 +07:00 [DBG] Signal process kill with helper tool.
+2023-07-08 09:04:45.037 +07:00 [DBG] Starting process
+2023-07-08 09:04:45.151 +07:00 [DBG] Start to read process output
+2023-07-08 09:04:45.151 +07:00 [DBG] Shutting down metrics agent
+2023-07-08 09:04:45.152 +07:00 [DBG] Metrics agent shut down

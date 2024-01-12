@@ -1,0 +1,13 @@
+contexts:
+- name: argocd.192.168.49.2.nip.io
+  server: argocd.192.168.49.2.nip.io
+  user: argocd.192.168.49.2.nip.io
+current-context: argocd.192.168.49.2.nip.io
+servers:
+- grpc-web: true
+  grpc-web-root-path: ""
+  insecure: true
+  server: argocd.192.168.49.2.nip.io
+users:
+- auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhcmdvY2QiLCJzdWIiOiJhZG1pbjpsb2dpbiIsImV4cCI6MTY5NzQ0NTk5NSwibmJmIjoxNjk3MzU5NTk1LCJpYXQiOjE2OTczNTk1OTUsImp0aSI6ImM3ZmI5ZTE0LTY2MmQtNDQxNC05MWE0LTRmZmE1MWQ3NDk2ZiJ9.J0E5xD6QOvCFPNVssVotyH_VKjBYJXf9TLD7im_zUEA
+  name: argocd.192.168.49.2.nip.io

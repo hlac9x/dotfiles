@@ -44,7 +44,6 @@ alias upwork="cd /Users/hoan.lac/Library/CloudStorage/OneDrive-Personal/Hoan\'s\
 alias axon="cd /Users/hlac/Library/CloudStorage/OneDrive-AxonEnterprise"
 # password=eval"$(op read "op://Axon/Okta/password")"
 
-eval "$(op completion zsh)"; compdef _op op
 alias 1cli='eval $(security find-generic-password -w -s '1password' -a 'david.jony106@gmail.com' | op signin)'
 alias 1pass='eval $(security find-generic-password -w -s '1password' -a 'david.jony106@gmail.com' | pbcopy)'
 

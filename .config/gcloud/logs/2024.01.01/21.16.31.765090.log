@@ -1,0 +1,12 @@
+2024-01-01 21:16:31,766 DEBUG    root            Loaded Command Group: ['gcloud', 'projects']
+2024-01-01 21:16:31,767 DEBUG    root            Loaded Command Group: ['gcloud', 'projects', 'describe']
+2024-01-01 21:16:31,768 DEBUG    root            Running [gcloud.projects.describe] with arguments: [--account: "route.p133@gmail.com", --configuration: "esther", --format: "value(name)", PROJECT_ID_OR_NUMBER: "original-seeker-405208"]
+2024-01-01 21:16:31,791 DEBUG    google.auth.transport.requests Making request: POST https://oauth2.googleapis.com/token
+2024-01-01 21:16:31,907 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2024-01-01 21:16:32,217 DEBUG    urllib3.connectionpool https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2024-01-01 21:16:32,320 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443
+2024-01-01 21:16:33,664 DEBUG    urllib3.connectionpool https://cloudresourcemanager.googleapis.com:443 "GET /v1/projects/original-seeker-405208?alt=json HTTP/1.1" 200 None
+2024-01-01 21:16:33,668 DEBUG    root            Chosen display Format:default value(name)
+2024-01-01 21:16:33,668 INFO     root            Display format: "default value(name)"
+2024-01-01 21:16:33,668 INFO     ___FILE_ONLY___ My First Project
+

@@ -1,0 +1,17 @@
+2023-12-21 12:02:27,378 DEBUG    root            Loaded Command Group: ['gcloud', 'projects']
+2023-12-21 12:02:27,382 DEBUG    root            Loaded Command Group: ['gcloud', 'projects', 'describe']
+2023-12-21 12:02:27,383 DEBUG    root            Running [gcloud.projects.describe] with arguments: [--account: "route.p133@gmail.com", --configuration: "esther", --format: "value(name)", PROJECT_ID_OR_NUMBER: "original-seeker-405208"]
+2023-12-21 12:02:27,408 DEBUG    google.auth.transport.requests Making request: POST https://oauth2.googleapis.com/token
+2023-12-21 12:02:27,619 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2023-12-21 12:02:27,798 DEBUG    urllib3.connectionpool https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2023-12-21 12:02:27,870 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443
+2023-12-21 12:02:28,914 DEBUG    urllib3.connectionpool https://cloudresourcemanager.googleapis.com:443 "GET /v1/projects/original-seeker-405208?alt=json HTTP/1.1" 200 None
+2023-12-21 12:02:28,919 DEBUG    root            Chosen display Format:default value(name)
+2023-12-21 12:02:28,919 INFO     root            Display format: "default value(name)"
+2023-12-21 12:02:28,920 INFO     ___FILE_ONLY___ My First Project
+
+2023-12-21 12:02:28,921 DEBUG    root            Checking for updates...
+2023-12-21 12:02:28,959 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2023-12-21 12:02:29,124 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components-2.json HTTP/1.1" 200 214443
+2023-12-21 12:02:29,299 DEBUG    root            Updating notification cache...
+2023-12-21 12:02:29,299 DEBUG    root            Activating notification: [default]
