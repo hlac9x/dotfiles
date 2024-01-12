@@ -1,3 +1,0 @@
-2024-01-11 11:36:44,010 DEBUG    root            Loaded Command Group: ['gcloud', 'projects']
-2024-01-11 11:36:44,015 DEBUG    root            Loaded Command Group: ['gcloud', 'projects', 'describe']
-2024-01-11 11:36:44,016 DEBUG    root            Running [gcloud.projects.describe] with arguments: [--account: "route.p133@gmail.com", --configuration: "esther", --format: "value(name)", PROJECT_ID_OR_NUMBER: "original-seeker-405208"]

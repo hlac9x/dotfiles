@@ -1,2 +1,0 @@
-/Users/hoan.lac/.config/AWSVPNClient/OpenVpnConfigs/test
-1688780353

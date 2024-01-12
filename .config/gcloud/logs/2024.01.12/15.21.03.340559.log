@@ -1,8 +1,0 @@
-2024-01-12 15:21:03,341 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
-2024-01-12 15:21:03,343 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'configurations']
-2024-01-12 15:21:03,345 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'configurations', 'describe']
-2024-01-12 15:21:03,346 DEBUG    root            Running [gcloud.config.configurations.describe] with arguments: [--format: "value[separator=""](properties.core.account,properties.core.project)", CONFIGURATION_NAME: "esther"]
-2024-01-12 15:21:03,346 DEBUG    root            Chosen display Format:default value[separator=""](properties.core.account,properties.core.project)
-2024-01-12 15:21:03,347 INFO     root            Display format: "default value[separator=""](properties.core.account,properties.core.project)"
-2024-01-12 15:21:03,347 INFO     ___FILE_ONLY___ route.p133@gmail.comoriginal-seeker-405208
-

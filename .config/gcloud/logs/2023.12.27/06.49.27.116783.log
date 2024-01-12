@@ -1,9 +1,0 @@
-2023-12-27 06:49:27,118 DEBUG    root            Loaded Command Group: ['gcloud', 'projects']
-2023-12-27 06:49:27,120 DEBUG    root            Loaded Command Group: ['gcloud', 'projects', 'describe']
-2023-12-27 06:49:27,121 DEBUG    root            Running [gcloud.projects.describe] with arguments: [--account: "route.p133@gmail.com", --configuration: "esther", --format: "value(name)", PROJECT_ID_OR_NUMBER: "original-seeker-405208"]
-2023-12-27 06:49:27,146 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443
-2023-12-27 06:49:28,338 DEBUG    urllib3.connectionpool https://cloudresourcemanager.googleapis.com:443 "GET /v1/projects/original-seeker-405208?alt=json HTTP/1.1" 200 None
-2023-12-27 06:49:28,340 DEBUG    root            Chosen display Format:default value(name)
-2023-12-27 06:49:28,340 INFO     root            Display format: "default value(name)"
-2023-12-27 06:49:28,341 INFO     ___FILE_ONLY___ My First Project
-
