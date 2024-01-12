@@ -1,0 +1,147 @@
+
+alias onedrive="cd /Users/hlac/Library/CloudStorage/OneDrive-Personal"
+#Show Current Puclis IP
+alias myip='curl http://ipecho.net/plain; echo'
+
+#Edit aliases file
+alias aliases='code ~/.aliases'
+alias awsconfig="code ~/.aws/credentials"
+alias sshconfig='code ~/.ssh'
+
+alias flushdns='sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder'
+############################### ZSH ###############################
+
+alias zshconfig='code ~/.zshrc'
+alias reload="source $HOME/.zshrc"
+alias v="vim"
+
+############################### TERRAFORM ###############################
+alias tf="terraform"
+
+
+############################### K8S ###############################
+alias k="kubectl"
+alias kx="kubectx"
+alias kubeconfig='code ~/.kube'
+
+############################### GIT ###############################
+alias g='git'
+alias ga='git add .'
+alias gb='git branch'
+alias gp='git pull'
+alias gps='git push'
+alias gc='git commit -m'
+alias gc='git checkout'
+alias gcb='git checkout -b'
+alias gcm='git checkout master'
+alias gm='git merge'
+alias glog='git log --oneline --decorate --graph'
+
+
+alias upwork="cd /Users/hoan.lac/Library/CloudStorage/OneDrive-Personal/Hoan\'s\ Data/Company/Upwork"
+
+############################### AXON ###############################
+alias axon="cd /Users/hlac/Library/CloudStorage/OneDrive-AxonEnterprise"
+# password=eval"$(op read "op://Axon/Okta/password")"
+
+eval "$(op completion zsh)"; compdef _op op
+alias 1cli='eval $(security find-generic-password -w -s '1password' -a 'david.jony106@gmail.com' | op signin)'
+alias 1pass='eval $(security find-generic-password -w -s '1password' -a 'david.jony106@gmail.com' | pbcopy)'
+
+#VPN
+# password no copy used for vpn command
+alias ag1='op read "op://Axon/Active Directory AG1/password"'
+alias dv1='op read "op://Axon/Active Directory DV1/password"'
+alias us2='op read "op://Axon/Active Directory US2/password"'
+alias us5='op read "op://Axon/Active Directory US5/password"'
+
+vpn () {
+    connection_state=$(osascript -e "tell application \"Viscosity\" to get state of first connection whose name is \"tvs-$1\"")
+    if [[ $? -ne 0 ]]; then
+        return
+    fi
+    echo $connection_state
+    if [[ "$connection_state" == "Connected" ]]; then
+        return
+    elif [[ "$connection_state" == "Connecting" ]]; then
+        osascript -e "tell application \"Viscosity\" to disconnect \"tvs-$1\""
+    else
+        echo "=========="
+        echo "Connecting"
+    fi
+    password=$(eval $1)
+
+    osascript <<END
+tell application "Viscosity"
+    connect "tvs-$1"
+    activate
+end tell
+delay 1
+tell application "System Events" to keystroke "$USERNAME"
+tell application "System Events" to keystroke tab
+tell application "System Events" to keystroke "$password"
+END
+}
+
+# ssh
+sshi () {
+  case "$1" in
+    "dv1") prefix="qus1uw2"
+      ;;
+    "ag1") prefix="qag1ge1"
+      ;;
+    "us2") prefix="sus2uw1"
+      ;;
+    "eu1") prefix="peu1ew1"
+      ;;
+    "la1") prefix="pla1bs1"
+      ;;
+    "nl1") prefix="pnl1we1"
+      ;;
+    "us4") prefix="pus4uw2"
+      ;;
+    "us5") prefix="qus5uw2"
+      ;;
+    "*")
+      echo "Invalid env: $1"
+      exit 1
+      ;;
+  esac
+
+  [[ -z "$prefix" ]] && echo "Missing env" && exit 1
+
+  vm_type="$2"
+  if [[ -z "$vm_type" ]]; then
+    vm_name="lnoc001"
+  else
+    if [[ "$vm_type" =~ ^l[a-z]{3}$ ]]; then
+      vm_name="${vm_type}001"
+    elif [[ "$vm_type" =~ ^l[a-z]{3}[0-9]{3}$ ]]; then
+      vm_name="$vm_type"
+    elif [[ "$vm_type" =~ ^l[a-z]{3}[0-9]$ ]]; then
+      vm_name="${vm_type:0:(-1)}00${vm_type:(-1)}"
+    else
+      echo "Invalid vm name: $vm_type"
+      exit 1
+    fi
+  fi
+
+  if [[ "$1" = "dv1"  && "$vm_name" =~ ^lbox[0-9]{3}$ ]]; then
+    full_vm_name="dus1uw2${vm_name}"
+  else
+    full_vm_name="$prefix$vm_name"
+  fi
+
+  ssh $full_vm_name
+}
+
+stop_dns_hell() {
+  sudo launchctl unload /Library/LaunchDaemons/com.greenboxal.dnsheaven.plist
+  sudo rm -f /etc/resolv.conf
+  sudo ln -s /var/run/resolv.conf /etc/resolv.conf
+}
+
+start_dns_hell() {
+  sudo rm -f /etc/resolv.conf
+  sudo launchctl load /Library/LaunchDaemons/com.greenboxal.dnsheaven.plist
+}
