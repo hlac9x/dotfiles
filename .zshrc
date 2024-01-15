@@ -15,7 +15,6 @@ zinit wait lucid light-mode depth=1 nocd for \
     hlissner/zsh-autopair
 zinit wait lucid is-snippet for \
     https://github.com/ahmetb/kubectl-aliases/blob/master/.kubectl_aliases \
-    https://github.com/ajeetdsouza/zoxide/blob/main/zoxide.plugin.zsh \
     https://github.com/junegunn/fzf/blob/master/shell/key-bindings.zsh \
     atload='GLOBALIAS_FILTER_VALUES=(z)' https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/globalias/globalias.plugin.zsh \
     as='completion' https://github.com/docker/cli/blob/master/contrib/completion/zsh/_docker
