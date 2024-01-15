@@ -7,12 +7,6 @@
 	name = Hoan Lac
 	email = hoan.lac@outlook.com
 	signingkey = ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQD2WQ1D2K57gj0y1SnaeHYOMYQWhXXZe5KZq8Oq4KwUdz6eLU8Ahl0t0M0K+EYJgJtzYF1x0hgczqvujAS8SddVNxGX8qbA1wIGdiOV+ITNOfrPmpvfVArBMahiq2xMD177IFfp3aNyQgu8H86IY97vOUtodKOuzDmvyIWuCUpd2HU8FRdnuq4C1dlcgJPgWCM5QGdCbRYOFOsUok+PqiHWVNWvwSR03ScXXLFO2Ytz/Pv+YDZCqPDaCkgTF9+/clL6gX9cpeHmiAcx0dXy2EgCxREBef5KUmjWrBQ+OflV8AF6h1gQ51EY18iYlTe4lhhUpjw6tRAScJh91+ylXutawNrxniW3YgEn97hUNEvIzyiLEIfxxqQDRL4VTfmXMM0HCAqqc/EeayOePjtV7a3oQAdeYF2UTUGPXtmq5jduyMids4WarcIRdPU0ibcsJtae1GuQPW8Hmu7dwoaQ5m5j6LLZVJX0zF4ryIO2GUoJIJUjCfcqgidsFESzOGlx3lNhU+M9klOYMnlFs8l/vyQKv7NWyCa+JEKKxmIkyKihKgig0xSCISJpx41HIckPHB0akUPhqV/ijPDVcN48EyiYThwOlJ25Sj5G/6Di4l2lwYl1aqOhO9u062vu6HzMb0GKhKIPfKOMG/wkKnxgFPIqNRvP9pXVJh8HMLf6QO2+0w==
-[difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
-	path = 
-[mergetool "sourcetree"]
-	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
 [filter "lfs"]
 	required = true
 	clean = git-lfs clean -- %f
