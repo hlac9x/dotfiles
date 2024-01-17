@@ -3,6 +3,11 @@ alias onedrive="cd /Users/hlac/Library/CloudStorage/OneDrive-Personal"
 #Show Current Puclis IP
 alias myip='curl http://ipecho.net/plain; echo'
 
+############################### CUSTOM ###############################
+alias upwork="cd /Users/hoan.lac/Library/CloudStorage/OneDrive-Personal/Hoan\'s\ Data/Company/Upwork"
+alias dfimage="docker run -v /var/run/docker.sock:/var/run/docker.sock --rm chenzj/dfimage"
+alias vang='curl -s https://sjc.com.vn/giavang/textContent.php | rg -A2 10L | rg -o ".{0,6},000<" | sed "s/<//g"'
+
 #Edit aliases file
 alias aliases='code ~/.aliases'
 alias awsconfig="code ~/.aws/credentials"
@@ -35,9 +40,6 @@ alias gcb='git checkout -b'
 alias gcm='git checkout master'
 alias gm='git merge'
 alias glog='git log --oneline --decorate --graph'
-
-
-alias upwork="cd /Users/hoan.lac/Library/CloudStorage/OneDrive-Personal/Hoan\'s\ Data/Company/Upwork"
 
 ############################### AXON ###############################
 alias axon="cd /Users/hlac/Library/CloudStorage/OneDrive-AxonEnterprise"

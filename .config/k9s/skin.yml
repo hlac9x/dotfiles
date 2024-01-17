@@ -1,5 +1,16 @@
 k9s:
-  body:
+  refreshRate: 2
+  headless: false
+  readOnly: false
+  noIcons: false
+  logger:
+    tail: 200
+    buffer: 500
+    sinceSeconds: 300
+    fullScreenLogs: false
+    textWrap: false
+    showTime: false 
+   body:
     fgColor: white
     bgColor: default
   frame:
