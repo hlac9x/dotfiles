@@ -45,42 +45,119 @@ alias glog='git log --oneline --decorate --graph'
 alias axon="cd /Users/hlac/Library/CloudStorage/OneDrive-AxonEnterprise"
 # password=eval"$(op read "op://Axon/Okta/password")"
 
-alias 1cli='eval $(security find-generic-password -w -s '1password' -a 'david.jony106@gmail.com' | op signin)'
-alias 1pass='eval $(security find-generic-password -w -s '1password' -a 'david.jony106@gmail.com' | pbcopy)'
-
 #VPN
-# password no copy used for vpn command
-alias ag1='op read "op://Axon/Active Directory AG1/password"'
-alias dv1='op read "op://Axon/Active Directory DV1/password"'
-alias us2='op read "op://Axon/Active Directory US2/password"'
-alias us5='op read "op://Axon/Active Directory US5/password"'
+# Viscocity
+alias dv1='vpn dv1'
+alias ag1='vpn ag1'
+alias us2='vpn us2'
+alias us4='vpn us4'
+alias us5='vpn us5'
+alias us6='vpn us6'
+alias eu1='vpn eu1'
+alias nl1='vpn nl1'
+alias la1='vpn la1'
+alias in1='vpn in1'
+
+# eval "$(op completion zsh)"; compdef _op op
+alias 1cli='eval $(security find-generic-password -w -s '1password' -a 'david.jony106@gmail.com' | op signin)'
 
 vpn () {
-    connection_state=$(osascript -e "tell application \"Viscosity\" to get state of first connection whose name is \"tvs-$1\"")
-    if [[ $? -ne 0 ]]; then
-        return
-    fi
-    echo $connection_state
-    if [[ "$connection_state" == "Connected" ]]; then
-        return
-    elif [[ "$connection_state" == "Connecting" ]]; then
-        osascript -e "tell application \"Viscosity\" to disconnect \"tvs-$1\""
-    else
-        echo "=========="
-        echo "Connecting"
-    fi
-    password=$(eval $1)
+( op read "op://Axon/$1/password" | pbcopy
+  osascript << EOF
+  tell application "System Events"
+      repeat until (exists window 1 of application process "Viscosity")
+          delay 0.05
+      end repeat
+      keystroke "v" using command down
+  end tell
+EOF
+) &
 
-    osascript <<END
-tell application "Viscosity"
-    connect "tvs-$1"
-    activate
-end tell
-delay 1
-tell application "System Events" to keystroke "$USERNAME"
-tell application "System Events" to keystroke tab
-tell application "System Events" to keystroke "$password"
-END
+  osascript << EOF
+  tell application "Viscosity"
+      connect "tvs-$1"
+  end tell
+EOF
+}
+
+axlogin () {
+  deployment=$1
+
+if [[ -z "$deployment" ]] ; then
+  echo "ERROR: Invalid parameters"
+  echo "  $0 deployment"
+  echo "e.g."
+  echo "  $0 ag1"
+  exit 1
+fi
+
+case $deployment in
+  ag1)
+    AZURE_CLOUD=AzureUSGovernment
+    AZURE_SUBSCRIPTION=4d47ec28-1799-4c7b-9e34-81300079de6b
+  ;;
+  us1)
+    AZURE_CLOUD=AzureUSGovernment
+    AZURE_SUBSCRIPTION=f1f15309-3409-4c52-b7de-31cb8714db97
+  ;;
+  us3)
+    AZURE_CLOUD=AzureUSGovernment
+    AZURE_SUBSCRIPTION=3b245bfd-1493-463e-95f3-667e3d155d73
+  ;;
+  au1)
+    AZURE_CLOUD=AzureCloud
+    AZURE_SUBSCRIPTION=faeed5ba-1af5-482d-a3fd-1fbf0914b812
+  ;;
+  ca1)
+    AZURE_CLOUD=AzureCloud
+    AZURE_SUBSCRIPTION=e3bdb0c4-6ac6-4bc7-bb96-e0c8d46863af
+  ;;
+  eu1)
+    AZURE_CLOUD=AzureCloud
+    AZURE_SUBSCRIPTION=b18521cb-9832-4f5c-828a-e8e117818cb5
+  ;;
+  la1)
+    AZURE_CLOUD=AzureCloud
+    AZURE_SUBSCRIPTION=bedc3b52-9331-4e13-8022-414b4c58e484
+  ;;
+  nl1)
+    AZURE_CLOUD=AzureCloud
+    AZURE_SUBSCRIPTION=3bd0cd16-cd7d-49f0-a34e-dabc4f58b03c
+  ;;
+  uk2)
+    AZURE_CLOUD=AzureCloud
+    AZURE_SUBSCRIPTION=417ff278-c8e4-4c94-843d-905364f236a7
+  ;;
+  us2)
+    AZURE_CLOUD=AzureCloud
+    AZURE_SUBSCRIPTION=be4fa4c1-8513-4755-95f9-a8627814ca36
+  ;;
+  us4)
+    AZURE_CLOUD=AzureCloud
+    AZURE_SUBSCRIPTION=787da577-d660-41c4-9bdd-8896597ccf0a
+  ;;
+  us7|dv1)
+    AZURE_CLOUD=AzureCloud
+    AZURE_SUBSCRIPTION=fa9b6c3f-1af0-4bbb-bd8d-7dfd0e33e3fa
+  ;;
+  *)
+    echo "Deployment $deployment is unknown."
+    exit 255
+    ;;
+esac
+
+export AZURE_CLOUD
+export AZURE_SUBSCRIPTION
+az cloud set -n "$AZURE_CLOUD"
+
+if az account get-access-token > /dev/null ; then
+  echo "Azure Access Token retrieved, no need to login"
+else
+  echo "No Azure Access Token retrieved, triggering login"
+  az login
+  az account set -s "$AZURE_SUBSCRIPTION"
+  az account list -o table
+fi
 }
 
 # ssh
