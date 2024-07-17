@@ -23,6 +23,8 @@ alias v="vim"
 ############################### TERRAFORM ###############################
 alias tf="terraform"
 
+############################### TERRAGRUNT ###############################
+alias tg="terragrunt"
 
 ############################### K8S ###############################
 alias kx="kubectx"
@@ -222,4 +224,3 @@ start_dns_hell() {
   sudo rm -f /etc/resolv.conf
   sudo launchctl load /Library/LaunchDaemons/com.greenboxal.dnsheaven.plist
 }
-
